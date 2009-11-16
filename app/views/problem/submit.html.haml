@@ -1,0 +1,37 @@
+%h1 Submiting a solution
+
+- form_tag '/problems/submited' do |f|
+  %table
+    %th
+      %tr
+        %td 
+          %b Problem code
+        %td= @problem_code
+    %th
+      %tr
+        %td
+          %b Source
+        %td= @problem_source
+      %tr
+        %td
+          %b Your nick
+        %td
+          = text_field_tag 'nick', @nick
+          (Use the same ever!)
+      %tr
+        %td
+          %b Language
+        %td C++ (only)
+    %tbody
+      %tr
+        %td{ :valign => :top }
+          %b Code
+        %td= text_area_tag 'code', nil, :rows => 24, :cols => 80
+      %tr
+        %td
+        %td
+          = hidden_field_tag 'problem_code', @problem_code
+          = hidden_field_tag 'problem_source', @problem_source
+          = submit_tag 'Send'
+          = submit_tag 'Clear', :type => :reset
+

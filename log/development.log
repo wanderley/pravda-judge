@@ -1054,3 +1054,2167 @@ ActionView::MissingTemplate (Missing template problem/index.erb in view path app
   /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
 
 Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 22:39:37) [GET]
+
+ActionView::MissingTemplate (Missing template problem/index.erb in view path app/views):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 22:39:39) [GET]
+
+ActionView::MissingTemplate (Missing template problem/index.erb in view path app/views):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 22:41:11) [GET]
+Rendering problem/index
+Completed in 69ms (View: 67, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 22:43:36) [GET]
+Rendering problem/index
+Completed in 20ms (View: 1, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 22:43:37) [GET]
+Rendering problem/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 22:44:30) [GET]
+Rendering problem/index
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 22:44:32) [GET]
+Rendering problem/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 22:44:56) [GET]
+Rendering problem/index
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 22:45:33) [GET]
+Rendering problem/index
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 22:46:36) [GET]
+Rendering problem/index
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 22:46:48) [GET]
+Rendering problem/index
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 22:46:48) [GET]
+Rendering problem/index
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 22:46:49) [GET]
+Rendering problem/index
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 22:46:49) [GET]
+Rendering problem/index
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 22:47:57) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+
+ActionView::TemplateError (uninitialized constant ActionView::Base::CompiledTemplates::Pravada) on line #4 of app/views/layouts/application.html.haml:
+1: %html
+2:   %head
+3:     %title= Pravada - Judge
+4:   %body
+5:     = yield
+
+    app/views/layouts/application.html.haml:4:in `_run_haml_app47views47layouts47application46html46haml'
+    haml (2.2.9) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.9) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (40.1ms)
+Rendered rescues/_request_and_response (64.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 22:48:10) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 13ms (View: 10, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 22:48:13) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 22:48:37) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 524ms (View: 12, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 22:49:47) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 23:03:24) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 30ms (View: 13, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 23:05:00) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 69ms (View: 65, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 23:05:09) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 23:05:12) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 23:06:12) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 23:06:33) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 23:10:50) [GET]
+
+NameError (undefined local variable or method `problems_grouped' for #<ProblemController:0x1037e4bc8>):
+  app/controllers/problem_controller.rb:13:in `load_problems'
+  app/controllers/problem_controller.rb:10:in `each_line'
+  app/controllers/problem_controller.rb:10:in `load_problems'
+  app/controllers/problem_controller.rb:3:in `index'
+  haml (2.2.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (32.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 23:10:51) [GET]
+
+NameError (undefined local variable or method `problems_grouped' for #<ProblemController:0x1034322a0>):
+  app/controllers/problem_controller.rb:13:in `load_problems'
+  app/controllers/problem_controller.rb:10:in `each_line'
+  app/controllers/problem_controller.rb:10:in `load_problems'
+  app/controllers/problem_controller.rb:3:in `index'
+  haml (2.2.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (30.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 23:11:04) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 23:11:49) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+ERROR: compiling _run_haml_app47views47problem47index46html46haml RAISED compile error
+/Users/wanderley/workspace/pravda/judge/app/views/problem/index.html.haml:4: syntax error, unexpected ';'
+/Users/wanderley/workspace/pravda/judge/app/views/problem/index.html.haml:10: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_haml_app47views47problem47index46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:preserve=>["textarea", "pre", "code"], :format=>:xhtml, :attr_wrapper=>"'", :encoding=>nil, :escape_html=>false, :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :ugly=>false});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+
+_hamlout.push_text("<h1>Problems in judge</h1>\n<table>\n", 1, false); @problems_grouped.keys.sort.eachdo |key|;
+ @problems_grouped[key].each do |p|;
+
+_hamlout.push_text("  <tr>\n    <td>#{_hamlout.adjust_tabs(2); haml_temp = p[:source]
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</td>\n    <td>#{_hamlout.adjust_tabs(1); haml_temp = p[:code]
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</td>\n  </tr>\n", -1, false);end;end;_hamlout.push_text("</table>\n", -1, false);@haml_buffer = @haml_buffer.upper;_erbout;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/wanderley/workspace/pravda/judge/app/views/problem/index.html.haml:10:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:260:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.9/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:343:in `_render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:257:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.9/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1250:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1326:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `sass_old_process'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.9/rails/../lib/sass/plugin/rails.rb:19:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:46:in `service'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:13:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+./script/server:3
+
+ActionView::TemplateError (compile error
+/Users/wanderley/workspace/pravda/judge/app/views/problem/index.html.haml:4: syntax error, unexpected ';'
+/Users/wanderley/workspace/pravda/judge/app/views/problem/index.html.haml:10: syntax error, unexpected kENSURE, expecting $end) on line #4 of app/views/problem/index.html.haml:
+1: %h1 Problems in judge
+2: 
+3: %table
+4:   - @problems_grouped.keys.sort.eachdo |key|
+5:     - @problems_grouped[key].each do |p|
+6:       %tr
+7:         %td= p[:source]
+
+    app/views/problem/index.html.haml:10:in `compile!'
+    haml (2.2.9) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.9) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (37.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 23:11:58) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 14ms (View: 10, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 23:12:27) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 23:12:57) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 23:13:36) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 23:13:46) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+
+ActionView::TemplateError (Illegal nesting: content can't be both given on the same line as %li and nested within it.) on line #7 of app/views/problem/index.html.haml:
+4: %ul
+5:   - @problems_grouped.keys.sort.each do |key|
+6:     %li= key
+7:       %ul
+8:       - @problems_grouped[key].each do |p|
+9:         %li= p[:code]
+
+    app/views/problem/index.html.haml:7
+    haml (2.2.9) lib/haml/precompiler.rb:725:in `render_tag'
+    haml (2.2.9) lib/haml/precompiler.rb:204:in `process_line'
+    haml (2.2.9) lib/haml/precompiler.rb:168:in `precompile'
+    haml (2.2.9) lib/haml/engine.rb:113:in `initialize'
+    haml (2.2.9) rails/./lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.9) rails/./lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.9) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.9) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (113.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 23:13:57) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 23:14:20) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 23:14:42) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 23:14:58) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 23:15:19) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 81ms (View: 77, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 23:15:20) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 23:17:15) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 23:17:49) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 23:18:35) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 23:19:54) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 23:20:25) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 79ms (View: 9, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 23:20:31) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-15 23:21:38) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ApplicationController#index (for ::1 at 2009-11-16 07:48:36) [GET]
+
+ActionController::RoutingError (No route matches "/problems/submit" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 07:49:47) [GET]
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 204ms (View: 203, DB: 0) | 200 OK [http://localhost/problems/submit]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 07:50:06) [GET]
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/problems/submit]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 07:51:02) [GET]
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/problems/submit]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 07:51:21) [GET]
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/problems/submit]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 07:52:01) [GET]
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/problems/submit]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 07:52:33) [GET]
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/problems/submit]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 07:52:34) [GET]
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/problems/submit]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 07:52:34) [GET]
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/problems/submit]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 07:52:35) [GET]
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/problems/submit]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 07:52:35) [GET]
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/problems/submit]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 07:52:35) [GET]
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/problems/submit]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 07:52:35) [GET]
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/problems/submit]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 07:52:35) [GET]
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/problems/submit]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 07:52:35) [GET]
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/problems/submit]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 07:52:36) [GET]
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/problems/submit]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 07:56:15) [GET]
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/problems/submit]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 07:56:46) [GET]
+
+NameError (undefined local variable or method `problem_path' for #<ProblemController:0x10328cf68>):
+  app/controllers/problem_controller.rb:9:in `submit'
+  haml (2.2.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (97.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 07:56:56) [GET]
+Redirected to http://localhost:3000problems
+Completed in 25ms (DB: 0) | 302 Found [http://localhost/problems/submit]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 07:56:56) [GET]
+Redirected to http://localhost:3000problems
+Completed in 1ms (DB: 0) | 302 Found [http://localhost/problems/submit]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 07:56:58) [GET]
+Redirected to http://localhost:3000problems
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/problems/submit]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 07:57:02) [GET]
+Redirected to http://localhost:3000/problems
+Completed in 1ms (DB: 0) | 302 Found [http://localhost/problems/submit]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-16 07:57:02) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 15ms (View: 4, DB: 0) | 200 OK [http://localhost/problems]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 07:57:22) [GET]
+Redirected to http://localhost:3000/problems
+Completed in 1ms (DB: 0) | 302 Found [http://localhost/problems/submit]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-16 07:57:22) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/problems]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 08:01:44) [GET]
+Redirected to http://localhost:3000/problems
+Completed in 1ms (DB: 0) | 302 Found [http://localhost/problems/submit]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-16 08:01:44) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 106ms (View: 38, DB: 0) | 200 OK [http://localhost/problems]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 08:01:58) [GET]
+Redirected to http://localhost:3000/problems
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/problems/submit]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-16 08:01:58) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 111ms (View: 106, DB: 0) | 200 OK [http://localhost/problems]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 08:02:10) [GET]
+Redirected to http://localhost:3000/problems
+Completed in 1ms (DB: 0) | 302 Found [http://localhost/problems/submit]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-16 08:02:10) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 35ms (View: 30, DB: 0) | 200 OK [http://localhost/problems]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 08:02:17) [POST]
+  Parameters: {"authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8="}
+Redirected to http://localhost:3000/problems
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/problems/submit]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-16 08:02:17) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 30ms (View: 25, DB: 0) | 200 OK [http://localhost/problems]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 08:02:19) [POST]
+  Parameters: {"authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8="}
+Redirected to http://localhost:3000/problems
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/problems/submit]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-16 08:02:19) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 82ms (View: 78, DB: 0) | 200 OK [http://localhost/problems]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-16 08:03:56) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 35ms (View: 31, DB: 0) | 200 OK [http://localhost/problems]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-16 08:05:22) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 53ms (View: 49, DB: 0) | 200 OK [http://localhost/problems]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-16 08:06:15) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 128ms (View: 124, DB: 0) | 200 OK [http://localhost/problems]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 08:06:19) [POST]
+  Parameters: {"problem_code"=>"palin", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8="}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/problems/submit?problem_code=palin]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 08:06:33) [POST]
+  Parameters: {"problem_code"=>"paste", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8="}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/problems/submit?problem_code=paste]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 08:07:22) [POST]
+  Parameters: {"problem_code"=>"palin", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8="}
+Redirected to http://localhost:3000/problems
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/problems/submit?problem_code=palin]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-16 08:07:22) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 172ms (View: 168, DB: 0) | 200 OK [http://localhost/problems]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 08:07:27) [GET]
+  Parameters: {"problem_code"=>"palin", "problem_source"=>"(none)"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/problems/submit?problem_code=palin&problem_source=%28none%29]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 08:07:30) [GET]
+  Parameters: {"problem_code"=>"dream", "problem_source"=>"Balkan Olympiad in Informatics 2007 - Day 1"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/problems/submit?problem_code=dream&problem_source=Balkan+Olympiad+in+Informatics+2007+-+Day+1]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-16 08:08:01) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 52ms (View: 47, DB: 0) | 200 OK [http://localhost/problems]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 08:08:03) [GET]
+  Parameters: {"problem_code"=>"points", "problem_source"=>"Balkan Olympiad in Informatics 2007 - Day 1"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/problems/submit?problem_code=points&problem_source=Balkan+Olympiad+in+Informatics+2007+-+Day+1]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 08:08:31) [GET]
+  Parameters: {"problem_code"=>"points", "problem_source"=>"Balkan Olympiad in Informatics 2007 - Day 1"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/problems/submit?problem_code=points&problem_source=Balkan+Olympiad+in+Informatics+2007+-+Day+1]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 08:08:47) [GET]
+  Parameters: {"problem_code"=>"nogomet", "problem_source"=>"Croatian Highschool Competitions in Informatics 2005 - National - Junior - Day 2"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/problems/submit?problem_code=nogomet&problem_source=Croatian+Highschool+Competitions+in+Informatics+2005+-+National+-+Junior+-+Day+2]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-16 08:14:02) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 51ms (View: 46, DB: 0) | 200 OK [http://localhost/problems]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 08:14:04) [GET]
+  Parameters: {"problem_code"=>"hole", "problem_source"=>"National Olympiad in Informatics 2007"}
+Rendering template within layouts/application
+Rendering problem/submit
+
+ActionView::TemplateError (undefined method `nil_class_path' for #<ActionView::Base:0x10335b2f0>) on line #3 of app/views/problem/submit.html.haml:
+1: %h1 Submiting a solution
+2: 
+3: - form_for :url => { :controller => 'problem', :action => 'submit' } do |f|
+4:   %table
+5:     %th
+6:       %tr
+
+    haml (2.2.9) lib/haml/helpers/action_view_mods.rb:170:in `form_for'
+    app/views/problem/submit.html.haml:3:in `_run_haml_app47views47problem47submit46html46haml'
+    haml (2.2.9) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.9) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (110.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 08:25:52) [GET]
+  Parameters: {"problem_code"=>"hole", "problem_source"=>"National Olympiad in Informatics 2007"}
+Rendering template within layouts/application
+Rendering problem/submit
+ERROR: compiling _run_haml_app47views47problem47submit46html46haml RAISED compile error
+/Users/wanderley/workspace/pravda/judge/app/views/problem/submit.html.haml:3: unterminated string meets end of file
+/Users/wanderley/workspace/pravda/judge/app/views/problem/submit.html.haml:3: syntax error, unexpected $end, expecting kEND
+Function body:           def _run_haml_app47views47problem47submit46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:preserve=>["textarea", "pre", "code"], :format=>:xhtml, :attr_wrapper=>"'", :encoding=>nil, :escape_html=>false, :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :ugly=>false});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+_hamlout.push_text("<h1>Submiting a solution</h1>\n", 0, false); form_tag 'problems/submited''do |f|;
+
+
+
+
+
+
+
+
+
+
+_hamlout.push_text("<table>\n  <th>\n    <tr>\n      <td>Problem code:</td>\n      <td>#{_hamlout.adjust_tabs(4); haml_temp = @problem_code
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</td>\n    </tr>\n  </th>\n  <th>\n    <tr>\n      <td>Source:</td>\n      <td>#{_hamlout.adjust_tabs(1); haml_temp = @problem_source
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</td>\n    </tr>\n  </th>\n  <tbody>\n    <tr>\n      <td>Code:</td>\n      <td></td>\n    </tr>\n  </tbody>\n</table>\n", -3, false);end;@haml_buffer = @haml_buffer.upper;_erbout;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/wanderley/workspace/pravda/judge/app/views/problem/submit.html.haml:3:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:260:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.9/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:343:in `_render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:257:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.9/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1250:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1326:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `sass_old_process'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.9/rails/../lib/sass/plugin/rails.rb:19:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:46:in `service'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:13:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+./script/server:3
+
+ActionView::TemplateError (compile error
+/Users/wanderley/workspace/pravda/judge/app/views/problem/submit.html.haml:3: unterminated string meets end of file
+/Users/wanderley/workspace/pravda/judge/app/views/problem/submit.html.haml:3: syntax error, unexpected $end, expecting kEND) on line #3 of app/views/problem/submit.html.haml:
+1: %h1 Submiting a solution
+2: 
+3: - form_tag 'problems/submited''do |f|
+4:   %table
+5:     %th
+6:       %tr
+
+    app/views/problem/submit.html.haml:3:in `compile!'
+    haml (2.2.9) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.9) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (36.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 08:25:54) [GET]
+  Parameters: {"problem_code"=>"hole", "problem_source"=>"National Olympiad in Informatics 2007"}
+Rendering template within layouts/application
+Rendering problem/submit
+ERROR: compiling _run_haml_app47views47problem47submit46html46haml RAISED compile error
+/Users/wanderley/workspace/pravda/judge/app/views/problem/submit.html.haml:3: unterminated string meets end of file
+/Users/wanderley/workspace/pravda/judge/app/views/problem/submit.html.haml:3: syntax error, unexpected $end, expecting kEND
+Function body:           def _run_haml_app47views47problem47submit46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:preserve=>["textarea", "pre", "code"], :format=>:xhtml, :attr_wrapper=>"'", :encoding=>nil, :escape_html=>false, :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :ugly=>false});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+_hamlout.push_text("<h1>Submiting a solution</h1>\n", 0, false); form_tag 'problems/submited''do |f|;
+
+
+
+
+
+
+
+
+
+
+_hamlout.push_text("<table>\n  <th>\n    <tr>\n      <td>Problem code:</td>\n      <td>#{_hamlout.adjust_tabs(4); haml_temp = @problem_code
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</td>\n    </tr>\n  </th>\n  <th>\n    <tr>\n      <td>Source:</td>\n      <td>#{_hamlout.adjust_tabs(1); haml_temp = @problem_source
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</td>\n    </tr>\n  </th>\n  <tbody>\n    <tr>\n      <td>Code:</td>\n      <td></td>\n    </tr>\n  </tbody>\n</table>\n", -3, false);end;@haml_buffer = @haml_buffer.upper;_erbout;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/wanderley/workspace/pravda/judge/app/views/problem/submit.html.haml:3:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:260:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.9/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:343:in `_render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:257:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.9/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1250:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1326:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `sass_old_process'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.9/rails/../lib/sass/plugin/rails.rb:19:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:46:in `service'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:13:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+./script/server:3
+
+ActionView::TemplateError (compile error
+/Users/wanderley/workspace/pravda/judge/app/views/problem/submit.html.haml:3: unterminated string meets end of file
+/Users/wanderley/workspace/pravda/judge/app/views/problem/submit.html.haml:3: syntax error, unexpected $end, expecting kEND) on line #3 of app/views/problem/submit.html.haml:
+1: %h1 Submiting a solution
+2: 
+3: - form_tag 'problems/submited''do |f|
+4:   %table
+5:     %th
+6:       %tr
+
+    app/views/problem/submit.html.haml:3:in `compile!'
+    haml (2.2.9) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.9) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (110.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 08:26:01) [GET]
+  Parameters: {"problem_code"=>"hole", "problem_source"=>"National Olympiad in Informatics 2007"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/problems/submit?problem_code=hole&problem_source=National+Olympiad+in+Informatics+2007]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 08:27:51) [GET]
+  Parameters: {"problem_code"=>"hole", "problem_source"=>"National Olympiad in Informatics 2007"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/problems/submit?problem_code=hole&problem_source=National+Olympiad+in+Informatics+2007]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 08:28:01) [GET]
+  Parameters: {"problem_code"=>"hole", "problem_source"=>"National Olympiad in Informatics 2007"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/problems/submit?problem_code=hole&problem_source=National+Olympiad+in+Informatics+2007]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 08:28:15) [GET]
+  Parameters: {"problem_code"=>"hole", "problem_source"=>"National Olympiad in Informatics 2007"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 25ms (View: 24, DB: 0) | 200 OK [http://localhost/problems/submit?problem_code=hole&problem_source=National+Olympiad+in+Informatics+2007]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 08:28:26) [GET]
+  Parameters: {"problem_code"=>"hole", "problem_source"=>"National Olympiad in Informatics 2007"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 26ms (View: 25, DB: 0) | 200 OK [http://localhost/problems/submit?problem_code=hole&problem_source=National+Olympiad+in+Informatics+2007]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 08:28:38) [GET]
+  Parameters: {"problem_code"=>"hole", "problem_source"=>"National Olympiad in Informatics 2007"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/problems/submit?problem_code=hole&problem_source=National+Olympiad+in+Informatics+2007]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 08:28:54) [GET]
+  Parameters: {"problem_code"=>"hole", "problem_source"=>"National Olympiad in Informatics 2007"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/problems/submit?problem_code=hole&problem_source=National+Olympiad+in+Informatics+2007]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 08:29:00) [GET]
+  Parameters: {"problem_code"=>"hole", "problem_source"=>"National Olympiad in Informatics 2007"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/problems/submit?problem_code=hole&problem_source=National+Olympiad+in+Informatics+2007]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 08:31:03) [GET]
+  Parameters: {"problem_code"=>"hole", "problem_source"=>"National Olympiad in Informatics 2007"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/problems/submit?problem_code=hole&problem_source=National+Olympiad+in+Informatics+2007]
+
+
+Processing ApplicationController#index (for ::1 at 2009-11-16 08:31:16) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8="}
+
+ActionController::RoutingError (No route matches "/problems/problems/submited" with {:method=>:post}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 08:31:27) [GET]
+  Parameters: {"problem_code"=>"hole", "problem_source"=>"National Olympiad in Informatics 2007"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/problems/submit?problem_code=hole&problem_source=National+Olympiad+in+Informatics+2007]
+
+
+Processing ApplicationController#index (for ::1 at 2009-11-16 08:31:27) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8="}
+
+ActionController::RoutingError (No route matches "/problems/submited" with {:method=>:post}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for ::1 at 2009-11-16 08:34:08) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8="}
+
+ActionController::RoutingError (No route matches "/problems/submited" with {:method=>:post}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 08:34:49) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8="}
+Redirected to http://localhost:3000/problems
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/problems/submited]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-16 08:34:49) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 74ms (View: 69, DB: 0) | 200 OK [http://localhost/problems]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 08:34:53) [GET]
+  Parameters: {"problem_code"=>"palin", "problem_source"=>"(none)"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/problems/submit?problem_code=palin&problem_source=%28none%29]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 08:35:42) [GET]
+  Parameters: {"problem_code"=>"palin", "problem_source"=>"(none)"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/problems/submit?problem_code=palin&problem_source=%28none%29]
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 08:35:44) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/problems/submited]
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 08:37:03) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/problems/submited]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 08:37:05) [GET]
+  Parameters: {"problem_code"=>"palin", "problem_source"=>"(none)"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/problems/submit?problem_code=palin&problem_source=%28none%29]
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 08:37:18) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"uaoe", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+
+ActionView::MissingTemplate (Missing template problem/submited.erb in view path app/views):
+  haml (2.2.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 08:43:22) [GET]
+  Parameters: {"problem_code"=>"palin", "problem_source"=>"(none)"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/problems/submit?problem_code=palin&problem_source=%28none%29]
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 08:43:29) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"", "nick"=>"wanderley", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/problems/submited]
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 08:45:55) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"", "nick"=>"wanderley", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/problems/submited]
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 08:46:19) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"", "nick"=>"wanderley", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/problems/submited]
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 08:47:35) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"", "nick"=>"wanderley", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/problems/submited]
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 08:47:42) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"", "nick"=>"", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/problems/submited]
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 08:47:47) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"uaeo", "nick"=>"", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+
+NoMethodError (undefined method `code' for #<Hash:0x10376c8f8>):
+  app/controllers/problem_controller.rb:37:in `submited'
+  app/controllers/problem_controller.rb:36:in `each'
+  app/controllers/problem_controller.rb:36:in `submited'
+  haml (2.2.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (30.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 08:48:02) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"", "nick"=>"", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/problems/submited]
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 08:48:37) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"", "nick"=>"", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/problems/submited]
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 08:48:42) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"uaeo", "nick"=>"", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+
+NoMethodError (undefined method `code' for #<Hash:0x1032a9118>):
+  app/controllers/problem_controller.rb:37:in `submited'
+  app/controllers/problem_controller.rb:36:in `each'
+  app/controllers/problem_controller.rb:36:in `submited'
+  haml (2.2.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (102.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 08:49:29) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"uaeo", "nick"=>"", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+
+ActionView::MissingTemplate (Missing template problem/submited.erb in view path app/views):
+  haml (2.2.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 08:49:33) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"uaeo", "nick"=>"", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+
+ActionView::MissingTemplate (Missing template problem/submited.erb in view path app/views):
+  haml (2.2.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 08:49:45) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"uaeo", "nick"=>"", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/problems/submited]
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 08:54:42) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"uaeo", "nick"=>"", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/problems/submited]
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 08:54:44) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"uaeo", "nick"=>"", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/problems/submited]
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 08:54:55) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"", "nick"=>"wanderley", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+
+ActionView::MissingTemplate (Missing template problem/submited.erb in view path app/views):
+  haml (2.2.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 08:59:30) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"uaeo", "nick"=>"", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 94ms (View: 92, DB: 0) | 200 OK [http://localhost/problems/submited]
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 08:59:40) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"uaeo", "nick"=>"", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/problems/submited]
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 08:59:50) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"uaeo", "nick"=>"", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/problems/submited]
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 08:59:57) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"", "nick"=>"wanderley", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+
+ActionView::MissingTemplate (Missing template problem/submited.erb in view path app/views):
+  haml (2.2.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 09:02:42) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"ueosat", "nick"=>"wanderley", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+
+ActionView::MissingTemplate (Missing template problem/submited.erb in view path app/views):
+  haml (2.2.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 09:02:50) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"ueosat", "nick"=>"wanderley", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+
+ActionView::MissingTemplate (Missing template problem/submited.erb in view path app/views):
+  haml (2.2.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 09:05:11) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"ueosat", "nick"=>"wanderley", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+
+ActionView::MissingTemplate (Missing template problem/submited.erb in view path app/views):
+  haml (2.2.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 09:10:45) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"ueosat", "nick"=>"wanderley", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+
+ActionView::MissingTemplate (Missing template problem/submited.erb in view path app/views):
+  haml (2.2.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 09:11:18) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"ueosat", "nick"=>"wanderley", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+
+ActionView::MissingTemplate (Missing template problem/submited.erb in view path app/views):
+  haml (2.2.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 09:12:01) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"uaeo", "nick"=>"", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/problems/submited]
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 09:12:06) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"ueosat", "nick"=>"wanderley", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+
+ActionView::MissingTemplate (Missing template problem/submited.erb in view path app/views):
+  haml (2.2.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 09:14:26) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"", "nick"=>"wanderley", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+
+ActionView::MissingTemplate (Missing template problem/submited.erb in view path app/views):
+  haml (2.2.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 09:14:37) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"", "nick"=>"wanderley", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+
+ActionView::MissingTemplate (Missing template problem/submited.erb in view path app/views):
+  haml (2.2.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 09:15:01) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"", "nick"=>"wanderley", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/problems/submited]
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 09:16:35) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"", "nick"=>"wanderley", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 11ms (View: 3, DB: 0) | 200 OK [http://localhost/problems/submited]
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 09:16:49) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"a", "nick"=>"wanderley", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+
+ActionView::MissingTemplate (Missing template problem/submited.erb in view path app/views):
+  haml (2.2.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 09:20:38) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"a", "nick"=>"wanderley", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+
+Errno::ENOENT (No such file or directory - db/problems/coci/2001/regional/seniors/palin/20091116092038.wanderley/sol.cpp):
+  app/controllers/problem_controller.rb:50:in `initialize'
+  app/controllers/problem_controller.rb:50:in `new'
+  app/controllers/problem_controller.rb:50:in `submited'
+  haml (2.2.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (32.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 09:22:40) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"", "nick"=>"wanderley", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/problems/submited]
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 09:23:27) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"a", "nick"=>"wanderley", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+
+ActionView::MissingTemplate (Missing template problem/submited.erb in view path app/views):
+  haml (2.2.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 09:44:24) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"a", "nick"=>"wanderley", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+
+ActionView::MissingTemplate (Missing template problem/submited.erb in view path app/views):
+  haml (2.2.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 09:46:08) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"a", "nick"=>"wanderley", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+Redirected to http://localhost:3000report/20091116094608.wanderley
+Completed in 2008ms (DB: 0) | 302 Found [http://localhost/problems/submited]
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 09:46:44) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"", "nick"=>"wanderley", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/problems/submited]
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 09:47:30) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"teste", "nick"=>"wanderley", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+Redirected to http://localhost:3000/status/20091116094730.wanderley
+Completed in 2013ms (DB: 0) | 302 Found [http://localhost/problems/submited]
+
+
+Processing ApplicationController#index (for ::1 at 2009-11-16 09:47:32) [GET]
+
+ActionController::RoutingError (No route matches "/status/20091116094730.wanderley" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for ::1 at 2009-11-16 09:48:27) [GET]
+
+ActionController::RoutingError (No route matches "/status/20091116094730.wanderley" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for ::1 at 2009-11-16 09:48:28) [GET]
+
+ActionController::RoutingError (No route matches "/status/20091116094730.wanderley" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for ::1 at 2009-11-16 09:48:28) [GET]
+
+ActionController::RoutingError (No route matches "/status/20091116094730.wanderley" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for ::1 at 2009-11-16 09:48:29) [GET]
+
+ActionController::RoutingError (No route matches "/status/20091116094730.wanderley" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for ::1 at 2009-11-16 09:48:29) [GET]
+
+ActionController::RoutingError (No route matches "/status/20091116094730.wanderley" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for ::1 at 2009-11-16 09:48:29) [GET]
+
+ActionController::RoutingError (No route matches "/status/20091116094730.wanderley" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for ::1 at 2009-11-16 09:48:50) [GET]
+
+ActionController::RoutingError (No route matches "/status/20091116094730.wanderley" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProblemController#status (for ::1 at 2009-11-16 09:49:08) [GET]
+  Parameters: {"id"=>"20091116094730"}
+
+ActionView::MissingTemplate (Missing template problem/status.erb in view path app/views):
+  haml (2.2.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemController#status (for ::1 at 2009-11-16 09:49:23) [GET]
+  Parameters: {"nick"=>"wanderley", "date"=>"20091116094730"}
+
+ActionView::MissingTemplate (Missing template problem/status.erb in view path app/views):
+  haml (2.2.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemController#status (for ::1 at 2009-11-16 09:55:30) [GET]
+  Parameters: {"nick"=>"wanderley", "date"=>"20091116094730"}
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/status/20091116094730.wanderley]
+
+
+Processing ProblemController#status (for ::1 at 2009-11-16 09:56:00) [GET]
+  Parameters: {"nick"=>"wanderley", "date"=>"20091116094730"}
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091116094730.wanderley]
+
+
+Processing ProblemController#status (for ::1 at 2009-11-16 09:57:11) [GET]
+  Parameters: {"nick"=>"wanderley", "date"=>"20091116094730"}
+Completed in 2107ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091116094730.wanderley]
+
+
+Processing ProblemController#status (for ::1 at 2009-11-16 09:57:15) [GET]
+  Parameters: {"nick"=>"wanderley1", "date"=>"20091116094730"}
+Completed in 266ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091116094730.wanderley1]
+
+
+Processing ProblemController#status (for ::1 at 2009-11-16 09:57:36) [GET]
+  Parameters: {"nick"=>"wanderley1", "date"=>"20091116094730"}
+
+TypeError (can't convert Array into String):
+  app/controllers/problem_controller.rb:68:in `+'
+  app/controllers/problem_controller.rb:68:in `status'
+  haml (2.2.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (31.3ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemController#status (for ::1 at 2009-11-16 09:57:44) [GET]
+  Parameters: {"nick"=>"wanderley1", "date"=>"20091116094730"}
+
+TypeError (can't convert Fixnum into String):
+  app/controllers/problem_controller.rb:68:in `+'
+  app/controllers/problem_controller.rb:68:in `status'
+  haml (2.2.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (30.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemController#status (for ::1 at 2009-11-16 09:57:51) [GET]
+  Parameters: {"nick"=>"wanderley1", "date"=>"20091116094730"}
+Completed in 252ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091116094730.wanderley1]
+
+
+Processing ProblemController#status (for ::1 at 2009-11-16 09:57:56) [GET]
+  Parameters: {"nick"=>"wanderley1", "date"=>"20091116094730"}
+Completed in 276ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091116094730.wanderley1]
+
+
+Processing ProblemController#status (for ::1 at 2009-11-16 09:58:40) [GET]
+  Parameters: {"nick"=>"wanderley1", "date"=>"20091116094730"}
+Completed in 256ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091116094730.wanderley1]
+
+
+Processing ProblemController#status (for ::1 at 2009-11-16 10:00:10) [GET]
+  Parameters: {"nick"=>"wanderley1", "date"=>"20091116094730"}
+Completed in 257ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091116094730.wanderley1]
+
+
+Processing ProblemController#status (for ::1 at 2009-11-16 10:00:12) [GET]
+  Parameters: {"nick"=>"wanderley", "date"=>"20091116094730"}
+Completed in 265ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091116094730.wanderley]
+
+
+Processing ProblemController#status (for ::1 at 2009-11-16 10:01:45) [GET]
+  Parameters: {"nick"=>"wanderley", "date"=>"20091116094730"}
+Completed in 258ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091116094730.wanderley]
+
+
+Processing ProblemController#status (for ::1 at 2009-11-16 10:01:46) [GET]
+  Parameters: {"nick"=>"wanderley", "date"=>"20091116094730"}
+Completed in 255ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091116094730.wanderley]
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 10:07:40) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"teste", "nick"=>"wanderley", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+
+NameError (uninitialized constant ProblemController::FileUtil):
+  app/controllers/problem_controller.rb:56:in `submited'
+  haml (2.2.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (29.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 10:08:02) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"teste", "nick"=>"wanderley", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+Redirected to http://localhost:3000/status/20091116100802.wanderley
+Completed in 2007ms (DB: 0) | 302 Found [http://localhost/problems/submited]
+
+
+Processing ProblemController#status (for ::1 at 2009-11-16 10:08:04) [GET]
+  Parameters: {"nick"=>"wanderley", "date"=>"20091116100802"}
+Completed in 536ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091116100802.wanderley]
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 10:10:02) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"teste", "nick"=>"wanderley", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+Redirected to http://localhost:3000/status/20091116101002.wanderley
+Completed in 2008ms (DB: 0) | 302 Found [http://localhost/problems/submited]
+
+
+Processing ProblemController#status (for ::1 at 2009-11-16 10:10:04) [GET]
+  Parameters: {"nick"=>"wanderley", "date"=>"20091116101002"}
+Completed in 258ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091116101002.wanderley]
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 10:17:32) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"int main () {\r\n  return 0;\r\n}", "nick"=>"wanderley", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"palin", "problem_source"=>"(none)"}
+Redirected to http://localhost:3000/status/20091116101732.wanderley
+Completed in 2010ms (DB: 0) | 302 Found [http://localhost/problems/submited]
+
+
+Processing ProblemController#status (for ::1 at 2009-11-16 10:17:34) [GET]
+  Parameters: {"nick"=>"wanderley", "date"=>"20091116101732"}
+Completed in 629ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091116101732.wanderley]
+
+
+Processing ProblemController#status (for ::1 at 2009-11-16 10:33:50) [GET]
+  Parameters: {"nick"=>"wanderley", "date"=>"20091116101732"}
+Completed in 528ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091116101732.wanderley]
+
+
+Processing ProblemController#status (for ::1 at 2009-11-16 10:36:12) [GET]
+  Parameters: {"nick"=>"wanderley", "date"=>"20091116101732"}
+Completed in 259ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091116101732.wanderley]
+
+
+Processing ProblemController#status (for ::1 at 2009-11-16 10:59:30) [GET]
+  Parameters: {"nick"=>"wanderley", "date"=>"20091116101732"}
+Completed in 3157ms (View: 14, DB: 0) | 200 OK [http://localhost/status/20091116101732.wanderley]

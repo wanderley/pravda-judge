@@ -1,0 +1,8 @@
+%h1 Problems in judge
+
+%ul
+  - @problems_grouped.keys.sort.each do |key|
+    %li{ :style => 'list-style-type: none;'}= key
+    %ul{ :style => 'margin-bottom: 15px;'}
+      - @problems_grouped[key].each do |p|
+        %li= link_to p[:code], { :controller => 'problem', :action => 'submit', :problem_code => p[:code], :problem_source => p[:source] }

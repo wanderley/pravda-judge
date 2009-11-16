@@ -1,0 +1,317 @@
+	palin	db/problems/coci/2001/regional/seniors/palin
+	paste	db/problems/coci/2001/national/olympiad/paste
+Balkan Olympiad in Informatics 2007 - Day 1	cipher	db/problems/boi/2007/day1/cipher
+Balkan Olympiad in Informatics 2007 - Day 1	dream	db/problems/boi/2007/day1/dream
+Balkan Olympiad in Informatics 2007 - Day 1	points	db/problems/boi/2007/day1/points
+Balkan Olympiad in Informatics 2007 - Day 2	mokia	db/problems/boi/2007/day2/mokia
+Balkan Olympiad in Informatics 2007 - Day 2	stairway	db/problems/boi/2007/day2/stairway
+Balkan Olympiad in Informatics 2007 - Day 2	toponyms	db/problems/boi/2007/day2/toponyms
+COCI - 2001 Seniors	dollars	db/problems/coci/2001/regional/seniors/dollars
+COCI 2001 - Seniors	cards	db/problems/coci/2001/regional/seniors/cards
+COCI 2001 - Seniors	t9	db/problems/coci/2001/regional/seniors/t9
+COCI 2001 Final Exam First Day	power	db/problems/coci/2001/national/final_first_day/power
+COCI 2001 Final Exam First Day	wedding	db/problems/coci/2001/national/final_first_day/wedding
+COCI 2001 Final Second Day	fatboy	db/problems/coci/2001/national/final_second_day/fatboy
+COCI 2001 Final Second Day	marica	db/problems/coci/2001/national/final_second_day/marica
+COCI 2001 National - Juniors	barcode	db/problems/coci/2001/national/first_day/juniors/barcode
+COCI 2001 National - Juniors	mass	db/problems/coci/2001/national/first_day/juniors/mass
+COCI 2001 National - Juniors	rooms	db/problems/coci/2001/national/first_day/juniors/rooms
+COCI 2001 National - Olympiad	polygon	db/problems/coci/2001/national/olympiad/polygon
+COCI 2001 National - Olympiad	search	db/problems/coci/2001/national/olympiad/search
+COCI 2001 National - Olympiad	words	db/problems/coci/2001/national/olympiad/words
+COCI 2001 National First Day - Seniors	calc	db/problems/coci/2001/national/first_day/seniors/calc
+COCI 2001 National First Day - Seniors	decode	db/problems/coci/2001/national/first_day/seniors/decode
+COCI 2001 National First Day - Seniors	shelves	db/problems/coci/2001/national/first_day/seniors/shelves
+COCI 2001 National Second Day - Seniors	cards	db/problems/coci/2001/national/second_day/seniors/cards
+COCI 2001 National Second Day - Seniors	list	db/problems/coci/2001/national/second_day/seniors/list
+COCI 2001 National Second Day - Seniors	monkey	db/problems/coci/2001/national/second_day/seniors/monkey
+COCI 2001 Regional - Juniors	clock	db/problems/coci/2001/regional/juniors/clock
+COCI 2001 Regional - Juniors	domains	db/problems/coci/2001/regional/juniors/domains
+COCI 2001 Regional - Juniors	icons	db/problems/coci/2001/regional/juniors/icons
+Croatian Highschool Competitions in Informatics 2002 - Final - Day 1	pigs	db/problems/coci/2002/final-day1/pigs
+Croatian Highschool Competitions in Informatics 2002 - Final - Day 1	safe	db/problems/coci/2002/final-day1/safe
+Croatian Highschool Competitions in Informatics 2002 - Final - Day 2	dog	db/problems/coci/2002/final-day2/dog
+Croatian Highschool Competitions in Informatics 2002 - Final - Day 2	tele	db/problems/coci/2002/final-day2/tele
+Croatian Highschool Competitions in Informatics 2002 - National - Junior - Day 1	comfort	db/problems/coci/2002/national-junior-day1/comfort
+Croatian Highschool Competitions in Informatics 2002 - National - Junior - Day 1	people	db/problems/coci/2002/national-junior-day1/people
+Croatian Highschool Competitions in Informatics 2002 - National - Junior - Day 1	teams	db/problems/coci/2002/national-junior-day1/teams
+Croatian Highschool Competitions in Informatics 2002 - National - Junior - day 2	buha	db/problems/coci/2002/national-junior-day2/buha
+Croatian Highschool Competitions in Informatics 2002 - National - Junior - day 2	lignja	db/problems/coci/2002/national-junior-day2/lignja
+Croatian Highschool Competitions in Informatics 2002 - National - Senior - Day 1	ask	db/problems/coci/2002/national-senior-day1/ask
+Croatian Highschool Competitions in Informatics 2002 - National - Senior - Day 1	tower	db/problems/coci/2002/national-senior-day1/tower
+Croatian Highschool Competitions in Informatics 2002 - National - Senior - Day 1	tunnel	db/problems/coci/2002/national-senior-day1/tunnel
+Croatian Highschool Competitions in Informatics 2002 - National - Senior - Day 2	blast	db/problems/coci/2002/national-senior-day2/blast
+Croatian Highschool Competitions in Informatics 2002 - National - Senior - Day 2	numbers	db/problems/coci/2002/national-senior-day2/numbers
+Croatian Highschool Competitions in Informatics 2002 - National - Senior - Day 2	two	db/problems/coci/2002/national-senior-day2/two
+Croatian Highschool Competitions in Informatics 2002 - Olympiad	cattle	db/problems/coci/2002/olympiad/cattle
+Croatian Highschool Competitions in Informatics 2002 - Olympiad	cola	db/problems/coci/2002/olympiad/cola
+Croatian Highschool Competitions in Informatics 2002 - Olympiad	meadow	db/problems/coci/2002/olympiad/meadow
+Croatian Highschool Competitions in Informatics 2002 - Olympiad	parking	db/problems/coci/2002/olympiad/parking
+Croatian Highschool Competitions in Informatics 2002 - Regional - Junior	janica	db/problems/coci/2002/regional-junior/janica
+Croatian Highschool Competitions in Informatics 2002 - Regional - Junior	letters	db/problems/coci/2002/regional-junior/letters
+Croatian Highschool Competitions in Informatics 2002 - Regional - Junior	song	db/problems/coci/2002/regional-junior/song
+Croatian Highschool Competitions in Informatics 2002 - Regional - Junior	tram	db/problems/coci/2002/regional-junior/tram
+Croatian Highschool Competitions in Informatics 2002 - Regional - Senior	airplane	db/problems/coci/2002/regional-senior/airplane
+Croatian Highschool Competitions in Informatics 2002 - Regional - Senior	elbow	db/problems/coci/2002/regional-senior/elbow
+Croatian Highschool Competitions in Informatics 2002 - Regional - Senior	it	db/problems/coci/2002/regional-senior/it
+Croatian Highschool Competitions in Informatics 2002 - Regional - Senior	windows	db/problems/coci/2002/regional-senior/windows
+Croatian Highschool Competitions in Informatics 2005 - Final - Day 1	kasino	db/problems/coci/2005/final-day2/kasino
+Croatian Highschool Competitions in Informatics 2005 - Final - Day 1	papir	db/problems/coci/2005/final-day1/papir
+Croatian Highschool Competitions in Informatics 2005 - Final - Day 1	polja	db/problems/coci/2005/final-day2/polja
+Croatian Highschool Competitions in Informatics 2005 - Final - Day 1	zmaj	db/problems/coci/2005/final-day1/zmaj
+Croatian Highschool Competitions in Informatics 2005 - National - Junior - Day 1	autoput	db/problems/coci/2005/national-junior-day1/autoput
+Croatian Highschool Competitions in Informatics 2005 - National - Junior - Day 1	svemir	db/problems/coci/2005/national-senior-day1/svemir
+Croatian Highschool Competitions in Informatics 2005 - National - Junior - Day 1	tomo	db/problems/coci/2005/national-junior-day1/tomo
+Croatian Highschool Competitions in Informatics 2005 - National - Junior - Day 1	zmija	db/problems/coci/2005/national-junior-day1/zmija
+Croatian Highschool Competitions in Informatics 2005 - National - Junior - Day 2	lopta	db/problems/coci/2005/national-junior-day2/lopta
+Croatian Highschool Competitions in Informatics 2005 - National - Junior - Day 2	nogomet	db/problems/coci/2005/national-junior-day2/nogomet
+Croatian Highschool Competitions in Informatics 2005 - National - Junior - Day 2	ribari	db/problems/coci/2005/national-junior-day2/ribari
+Croatian Highschool Competitions in Informatics 2005 - National - Senior - Day 1	jmbg	db/problems/coci/2005/national-senior-day1/jmbg
+Croatian Highschool Competitions in Informatics 2005 - National - Senior - Day 1	kvadrat	db/problems/coci/2005/national-senior-day1/kvadrat
+Croatian Highschool Competitions in Informatics 2005 - National - Senior - Day 2	labudovi	db/problems/coci/2005/national-senior-day2/labudovi
+Croatian Highschool Competitions in Informatics 2005 - National - Senior - Day 2	nagibni	db/problems/coci/2005/national-senior-day2/nagibni
+Croatian Highschool Competitions in Informatics 2005 - National - Senior - Day 2	utrka	db/problems/coci/2005/national-senior-day2/utrka
+Croatian Highschool Competitions in Informatics 2005 - Olympiad	deva	db/problems/coci/2005/olympiad/deva
+Croatian Highschool Competitions in Informatics 2005 - Olympiad	vid	db/problems/coci/2005/olympiad/vid
+Croatian Highschool Competitions in Informatics 2005 - Olympiad	xl	db/problems/coci/2005/olympiad/xl
+Croatian Highschool Competitions in Informatics 2005 - Olympiad	zvrk	db/problems/coci/2005/olympiad/zvrk
+Croatian Highschool Competitions in Informatics 2005 - Regional - Junior	ispit	db/problems/coci/2005/regional-junior/ispit
+Croatian Highschool Competitions in Informatics 2005 - Regional - Junior	kemija	db/problems/coci/2005/regional-junior/kemija
+Croatian Highschool Competitions in Informatics 2005 - Regional - Junior	kratica	db/problems/coci/2005/regional-junior/kratica
+Croatian Highschool Competitions in Informatics 2005 - Regional - Junior	ovce	db/problems/coci/2005/regional-junior/ovce
+Croatian Highschool Competitions in Informatics 2005 - Regional - Senior	koze	db/problems/coci/2005/regional-senior/koze
+Croatian Highschool Competitions in Informatics 2005 - Regional - Senior	kviz	db/problems/coci/2005/regional-senior/kviz
+Croatian Highschool Competitions in Informatics 2005 - Regional - Senior	nule	db/problems/coci/2005/regional-senior/nule
+Croatian Highschool Competitions in Informatics 2005 - Regional - Senior	pisoar	db/problems/coci/2005/regional-senior/pisoar
+Croatian Highschool Competitions in Informatics 2006 - Final - Day 1	karla	db/problems/coci/2006/final-day1/karla
+Croatian Highschool Competitions in Informatics 2006 - Final - Day 1	severina	db/problems/coci/2006/final-day1/severina
+Croatian Highschool Competitions in Informatics 2006 - Final - Day 2	formule	db/problems/coci/2006/final-day2/formule
+Croatian Highschool Competitions in Informatics 2006 - Final - Day 2	lubenica	db/problems/coci/2006/final-day2/lubenica
+Croatian Highschool Competitions in Informatics 2006 - National - Junior - Day 1	izbori	db/problems/coci/2006/national-junior-day1/izbori
+Croatian Highschool Competitions in Informatics 2006 - National - Junior - Day 1	kule	db/problems/coci/2006/national-junior-day1/kule
+Croatian Highschool Competitions in Informatics 2006 - National - Junior - Day 1	turbo	db/problems/coci/2006/national-junior-day1/turbo
+Croatian Highschool Competitions in Informatics 2006 - National - Junior - Day 2	kockice	db/problems/coci/2006/national-junior-day2/kockice
+Croatian Highschool Competitions in Informatics 2006 - National - Junior - Day 2	kontrola	db/problems/coci/2006/national-junior-day2/kontrola
+Croatian Highschool Competitions in Informatics 2006 - National - Junior - Day 2	stolni	db/problems/coci/2006/national-junior-day2/stolni
+Croatian Highschool Competitions in Informatics 2006 - National - Senior - Day 1	maraton	db/problems/coci/2006/national-senior-day1/maraton
+Croatian Highschool Competitions in Informatics 2006 - National - Senior - Day 1	petice	db/problems/coci/2006/national-senior-day1/petice
+Croatian Highschool Competitions in Informatics 2006 - National - Senior - Day 1	pruge	db/problems/coci/2006/national-senior-day1/pruge
+Croatian Highschool Competitions in Informatics 2006 - National - Senior - Day 2	grad	db/problems/coci/2006/national-senior-day2/grad
+Croatian Highschool Competitions in Informatics 2006 - National - Senior - Day 2	kaos	db/problems/coci/2006/national-senior-day2/kaos
+Croatian Highschool Competitions in Informatics 2006 - National - Senior - Day 2	kutije	db/problems/coci/2006/national-senior-day2/kutije
+Croatian Highschool Competitions in Informatics 2006 - Olympiad	banana	db/problems/coci/2006/olympiad/banana
+Croatian Highschool Competitions in Informatics 2006 - Olympiad	kokos	db/problems/coci/2006/olympiad/kokos
+Croatian Highschool Competitions in Informatics 2006 - Olympiad	super95	db/problems/coci/2006/olympiad/super95
+Croatian Highschool Competitions in Informatics 2006 - Olympiad	trokut	db/problems/coci/2006/olympiad/trokut
+Croatian Highschool Competitions in Informatics 2006 - Regional - Junior	alarm	db/problems/coci/2006/regional-junior/alarm
+Croatian Highschool Competitions in Informatics 2006 - Regional - Junior	kaskade	db/problems/coci/2006/regional-junior/kaskade
+Croatian Highschool Competitions in Informatics 2006 - Regional - Junior	toplista	db/problems/coci/2006/regional-junior/toplista
+Croatian Highschool Competitions in Informatics 2006 - Regional - Junior	tunel	db/problems/coci/2006/regional-junior/tunel
+Croatian Highschool Competitions in Informatics 2006 - Regional - Senior	lampice	db/problems/coci/2006/regional-senior/lampice
+Croatian Highschool Competitions in Informatics 2006 - Regional - Senior	osmo	db/problems/coci/2006/regional-senior/osmo
+Croatian Highschool Competitions in Informatics 2006 - Regional - Senior	sibice	db/problems/coci/2006/regional-senior/sibice
+Croatian Highschool Competitions in Informatics 2006 - Regional - Senior	waclaw	db/problems/coci/2006/regional-senior/waclaw
+Croatian Highschool Competitions in Informatics 2007 - Final - Day 1	noga	db/problems/coci/2007/final-day1/noga
+Croatian Highschool Competitions in Informatics 2007 - Final - Day 1	povez	db/problems/coci/2007/final-day1/povez
+Croatian Highschool Competitions in Informatics 2007 - Final - Day 2	eeprom	db/problems/coci/2007/final-day2/eeprom
+Croatian Highschool Competitions in Informatics 2007 - Final - Day 2	tornjevi	db/problems/coci/2007/final-day2/tornjevi
+Croatian Highschool Competitions in Informatics 2007 - National - Junior - Day 1	vandal	db/problems/coci/2007/national-junior-day1/vandal
+Croatian Highschool Competitions in Informatics 2007 - National - Junior - Day 2	karta	db/problems/coci/2007/national-junior-day2/karta
+Croatian Highschool Competitions in Informatics 2007 - National - Junior - Day 2	magneti	db/problems/coci/2007/national-junior-day2/magneti
+Croatian Highschool Competitions in Informatics 2007 - National - Junior - Day 2	slika	db/problems/coci/2007/national-junior-day2/slika
+Croatian Highschool Competitions in Informatics 2007 - National - Senior - Day 1	kolica	db/problems/coci/2007/national-senior-day1/kolica
+Croatian Highschool Competitions in Informatics 2007 - National - Senior - Day 1	ograda	db/problems/coci/2007/national-senior-day1/ograda
+Croatian Highschool Competitions in Informatics 2007 - National - Senior - Day 1	potpuni	db/problems/coci/2007/national-senior-day1/potpuni
+Croatian Highschool Competitions in Informatics 2007 - National - Senior - Day 2	bingo	db/problems/coci/2007/national-senior-day2/bingo
+Croatian Highschool Competitions in Informatics 2007 - National - Senior - Day 2	lijen	db/problems/coci/2007/national-senior-day2/lijen
+Croatian Highschool Competitions in Informatics 2007 - National - Senior - Day 2	mravograd	db/problems/coci/2007/national-senior-day2/mravograd
+Croatian Highschool Competitions in Informatics 2007 - Nationl - Junior - Day 1	guliver	db/problems/coci/2007/national-junior-day1/guliver
+Croatian Highschool Competitions in Informatics 2007 - Nationl - Junior - Day 1	stupovi	db/problems/coci/2007/national-junior-day1/stupovi
+Croatian Highschool Competitions in Informatics 2007 - Olympiad	patrik	db/problems/coci/2007/olympiad/patrik
+Croatian Highschool Competitions in Informatics 2007 - Olympiad	policija	db/problems/coci/2007/olympiad/policija
+Croatian Highschool Competitions in Informatics 2007 - Olympiad	sabor	db/problems/coci/2007/olympiad/sabor
+Croatian Highschool Competitions in Informatics 2008 - Final Day 1	konzerve	db/problems/coci/2008/final-day1/konzerve
+Croatian Highschool Competitions in Informatics 2008 - Final Day 1	putevi	db/problems/coci/2008/final-day1/putevi
+Croatian Highschool Competitions in Informatics 2008 - Final Day 2	arhitekt	db/problems/coci/2008/final-day2/arhitekt
+Croatian Highschool Competitions in Informatics 2008 - Final Day 2	dorucak	db/problems/coci/2008/final-day2/dorucak
+Croatian Highschool Competitions in Informatics 2008 - National - Junior - Day 1	izbornik	db/problems/coci/2008/national-junior-day1/izbornik
+Croatian Highschool Competitions in Informatics 2008 - National - Junior - Day 1	kupus	db/problems/coci/2008/national-junior-day1/kupus
+Croatian Highschool Competitions in Informatics 2008 - National - Junior - Day 1	park	db/problems/coci/2008/national-junior-day1/park
+Croatian Highschool Competitions in Informatics 2008 - National - Junior - Day 2	bipalin	db/problems/coci/2008/national-junior-day2/bipalin
+Croatian Highschool Competitions in Informatics 2008 - National - Junior - Day 2	kljuc	db/problems/coci/2008/national-junior-day2/kljuc
+Croatian Highschool Competitions in Informatics 2008 - National - Junior - Day 2	vjesala	db/problems/coci/2008/national-junior-day2/vjesala
+Croatian Highschool Competitions in Informatics 2008 - National - Senior - Day 1	gondor	db/problems/coci/2008/national-senior-day1/gondor
+Croatian Highschool Competitions in Informatics 2008 - National - Senior - Day 1	jezero	db/problems/coci/2008/national-senior-day1/jezero
+Croatian Highschool Competitions in Informatics 2008 - National - Senior - Day 1	majmun	db/problems/coci/2008/national-senior-day1/majmun
+Croatian Highschool Competitions in Informatics 2008 - National - Senior - Day 2	poklon	db/problems/coci/2008/national-senior-day2/poklon
+Croatian Highschool Competitions in Informatics 2008 - National - Senior - Day 2	slon	db/problems/coci/2008/national-senior-day2/slon
+Croatian Highschool Competitions in Informatics 2008 - National - Senior - Day 2	tvrtka	db/problems/coci/2008/national-senior-day2/tvrtka
+Croatian Highschool Competitions in Informatics 2008 - Olympiad	glasnici	db/problems/coci/2008/olympiad/glasnici
+Croatian Highschool Competitions in Informatics 2008 - Olympiad	kolekcija	db/problems/coci/2008/olympiad/kolekcija
+Croatian Highschool Competitions in Informatics 2008 - Olympiad	tamnica	db/problems/coci/2008/olympiad/tamnica
+Croatian Highschool Competitions in Informatics 2008 - Olympiad	umnozak	db/problems/coci/2008/olympiad/umnozak
+Croatian Highschool Competitions in Informatics 2008 - Regional - Junior	instrukcije	db/problems/coci/2008/regional-junior/instrukcije
+Croatian Highschool Competitions in Informatics 2008 - Regional - Junior	lagno	db/problems/coci/2008/regional-junior/lagno
+Croatian Highschool Competitions in Informatics 2008 - Regional - Junior	nikola	db/problems/coci/2008/regional-junior/nikola
+Croatian Highschool Competitions in Informatics 2008 - Regional - Junior	pjesma	db/problems/coci/2008/regional-junior/pjesma
+Croatian Open Competitions in Informatics 2006/2007 - Contest #1	bond	db/problems/coci/2007/online/contest_1/bond
+Croatian Open Competitions in Informatics 2006/2007 - Contest #1	debug	db/problems/coci/2007/online/contest_1/debug
+Croatian Open Competitions in Informatics 2006/2007 - Contest #1	herman	db/problems/coci/2007/online/contest_1/herman
+Croatian Open Competitions in Informatics 2006/2007 - Contest #1	modulo	db/problems/coci/2007/online/contest_1/modulo
+Croatian Open Competitions in Informatics 2006/2007 - Contest #1	okviri	db/problems/coci/2007/online/contest_1/okviri
+Croatian Open Competitions in Informatics 2006/2007 - Contest #1	slikar	db/problems/coci/2007/online/contest_1/slikar
+Croatian Open Competitions in Informatics 2006/2007 - Contest #2	abc	db/problems/coci/2007/online/contest_2/abc
+Croatian Open Competitions in Informatics 2006/2007 - Contest #2	kolone	db/problems/coci/2007/online/contest_2/kolone
+Croatian Open Competitions in Informatics 2006/2007 - Contest #2	r2	db/problems/coci/2007/online/contest_2/r2
+Croatian Open Competitions in Informatics 2006/2007 - Contest #2	sjecista	db/problems/coci/2007/online/contest_2/sjecista
+Croatian Open Competitions in Informatics 2006/2007 - Contest #2	stol	db/problems/coci/2007/online/contest_2/stol
+Croatian Open Competitions in Informatics 2006/2007 - Contest #2	straza	db/problems/coci/2007/online/contest_2/straza
+Croatian Open Competitions in Informatics 2006/2007 - Contest #3	bicikli	db/problems/coci/2007/online/contest_3/bicikli
+Croatian Open Competitions in Informatics 2006/2007 - Contest #3	lista	db/problems/coci/2007/online/contest_3/lista
+Croatian Open Competitions in Informatics 2006/2007 - Contest #3	npuzzle	db/problems/coci/2007/online/contest_3/npuzzle
+Croatian Open Competitions in Informatics 2006/2007 - Contest #3	patulijci	db/problems/coci/2007/online/contest_3/patuljci
+Croatian Open Competitions in Informatics 2006/2007 - Contest #3	tenkici	db/problems/coci/2007/online/contest_3/tenkici
+Croatian Open Competitions in Informatics 2006/2007 - Contest #3	trojke	db/problems/coci/2007/online/contest_3/trojke
+Croatian Open Competitions in Informatics 2006/2007 - Contest #4	ispiti	db/problems/coci/2007/online/contest_4/ispiti
+Croatian Open Competitions in Informatics 2006/2007 - Contest #4	jogurt	db/problems/coci/2007/online/contest_4/jogurt
+Croatian Open Competitions in Informatics 2006/2007 - Contest #4	magija	db/problems/coci/2007/online/contest_6/magija
+Croatian Open Competitions in Informatics 2006/2007 - Contest #4	maraton	db/problems/coci/2007/online/contest_6/maraton
+Croatian Open Competitions in Informatics 2006/2007 - Contest #4	prase	db/problems/coci/2007/online/contest_6/prase
+Croatian Open Competitions in Informatics 2006/2007 - Contest #4	prsteni	db/problems/coci/2007/online/contest_4/prsteni
+Croatian Open Competitions in Informatics 2006/2007 - Contest #4	sibice	db/problems/coci/2007/online/contest_4/sibice
+Croatian Open Competitions in Informatics 2006/2007 - Contest #4	skener	db/problems/coci/2007/online/contest_4/skener
+Croatian Open Competitions in Informatics 2006/2007 - Contest #4	zbrka	db/problems/coci/2007/online/contest_4/zbrka
+Croatian Open Competitions in Informatics 2006/2007 - Contest #5	dvaput	db/problems/coci/2007/online/contest_5/dvaput
+Croatian Open Competitions in Informatics 2006/2007 - Contest #5	ivana	db/problems/coci/2007/online/contest_5/ivana
+Croatian Open Competitions in Informatics 2006/2007 - Contest #5	liga	db/problems/coci/2007/online/contest_5/liga
+Croatian Open Competitions in Informatics 2006/2007 - Contest #5	natrij	db/problems/coci/2007/online/contest_5/natrij
+Croatian Open Competitions in Informatics 2006/2007 - Contest #5	tenis	db/problems/coci/2007/online/contest_5/tenis
+Croatian Open Competitions in Informatics 2006/2007 - Contest #5	trik	db/problems/coci/2007/online/contest_5/trik
+Croatian Open Competitions in Informatics 2006/2007 - Contest #6	kamen	db/problems/coci/2007/online/contest_6/kamen
+Croatian Open Competitions in Informatics 2006/2007 - Contest #6	prostor	db/problems/coci/2007/online/contest_6/prostor
+Croatian Open Competitions in Informatics 2006/2007 - Contest #6	v	db/problems/coci/2007/online/contest_6/v
+Croatian Open Competitions in Informatics 2007/2008 - Contest #1	cetvrta	db/problems/coci/2008/online/contest_1/cetvrta
+Croatian Open Competitions in Informatics 2007/2008 - Contest #1	peg	db/problems/coci/2008/online/contest_1/peg
+Croatian Open Competitions in Informatics 2007/2008 - Contest #1	prinova	db/problems/coci/2008/online/contest_1/prinova
+Croatian Open Competitions in Informatics 2007/2008 - Contest #1	srednji	db/problems/coci/2008/online/contest_1/srednji
+Croatian Open Competitions in Informatics 2007/2008 - Contest #1	staza	db/problems/coci/2008/online/contest_1/staza
+Croatian Open Competitions in Informatics 2007/2008 - Contest #1	zapis	db/problems/coci/2008/online/contest_1/zapis
+Croatian Open Competitions in Informatics 2007/2008 - Contest #2	bijele	db/problems/coci/2008/online/contest_2/bijele
+Croatian Open Competitions in Informatics 2007/2008 - Contest #2	crne	db/problems/coci/2008/online/contest_2/crne
+Croatian Open Competitions in Informatics 2007/2008 - Contest #2	kemija	db/problems/coci/2008/online/contest_2/kemija
+Croatian Open Competitions in Informatics 2007/2008 - Contest #2	pravokutni	db/problems/coci/2008/online/contest_2/pravokutni
+Croatian Open Competitions in Informatics 2007/2008 - Contest #2	prva	db/problems/coci/2008/online/contest_2/prva
+Croatian Open Competitions in Informatics 2007/2008 - Contest #2	turbo	db/problems/coci/2008/online/contest_2/turbo
+Croatian Open Competitions in Informatics 2007/2008 - Contest #3	cetiri	db/problems/coci/2008/online/contest_3/cetiri
+Croatian Open Competitions in Informatics 2007/2008 - Contest #3	cudak	db/problems/coci/2008/online/contest_3/cudak
+Croatian Open Competitions in Informatics 2007/2008 - Contest #3	dejavu	db/problems/coci/2008/online/contest_3/dejavu
+Croatian Open Competitions in Informatics 2007/2008 - Contest #3	oktalni	db/problems/coci/2008/online/contest_3/oktalni
+Croatian Open Competitions in Informatics 2007/2008 - Contest #3	redoks	db/problems/coci/2008/online/contest_3/redoks
+Croatian Open Competitions in Informatics 2007/2008 - Contest #3	tajna	db/problems/coci/2008/online/contest_3/tajna
+Croatian Open Competitions in Informatics 2007/2008 - Contest #4	kocke	db/problems/coci/2008/online/contest_4/kocke
+Croatian Open Competitions in Informatics 2007/2008 - Contest #4	lektira	db/problems/coci/2008/online/contest_4/lektira
+Croatian Open Competitions in Informatics 2007/2008 - Contest #4	muzicari	db/problems/coci/2008/online/contest_4/muzicari
+Croatian Open Competitions in Informatics 2007/2008 - Contest #4	poklon	db/problems/coci/2008/online/contest_4/poklon
+Croatian Open Competitions in Informatics 2007/2008 - Contest #4	vauvau	db/problems/coci/2008/online/contest_4/vauvau
+Croatian Open Competitions in Informatics 2007/2008 - Contest #4	veci	db/problems/coci/2008/online/contest_4/veci
+Croatian Open Competitions in Informatics 2007/2008 - Contest #5	avogadro	db/problems/coci/2008/online/contest_5/avogadro
+Croatian Open Competitions in Informatics 2007/2008 - Contest #5	barica	db/problems/coci/2008/online/contest_5/barica
+Croatian Open Competitions in Informatics 2007/2008 - Contest #5	baza	db/problems/coci/2008/online/contest_5/baza
+Croatian Open Competitions in Informatics 2007/2008 - Contest #5	jabuke	db/problems/coci/2008/online/contest_5/jabuke
+Croatian Open Competitions in Informatics 2007/2008 - Contest #5	pascal	db/problems/coci/2008/online/contest_5/pascal
+Croatian Open Competitions in Informatics 2007/2008 - Contest #5	tri	db/problems/coci/2008/online/contest_5/tri
+Croatian Open Competitions in Informatics 2007/2008 - Contest #6	cestarine	db/problems/coci/2008/online/contest_6/cestarine
+Croatian Open Competitions in Informatics 2007/2008 - Contest #6	george	db/problems/coci/2008/online/contest_6/george
+Croatian Open Competitions in Informatics 2007/2008 - Contest #6	granica	db/problems/coci/2008/online/contest_6/granica
+Croatian Open Competitions in Informatics 2007/2008 - Contest #6	parking	db/problems/coci/2008/online/contest_6/parking
+Croatian Open Competitions in Informatics 2007/2008 - Contest #6	princeza	db/problems/coci/2008/online/contest_6/princeza
+Croatian Open Competitions in Informatics 2007/2008 - Contest #6	semafori	db/problems/coci/2008/online/contest_6/semafori
+Croatian Open Competitions in Informatics 2008/2009 - Contest #1	jez	db/problems/coci/2009/online/contest_1/jez
+Croatian Open Competitions in Informatics 2008/2009 - Contest #1	krtica	db/problems/coci/2009/online/contest_1/krtica
+Croatian Open Competitions in Informatics 2008/2009 - Contest #1	mravojed	db/problems/coci/2009/online/contest_1/mravojed
+Croatian Open Competitions in Informatics 2008/2009 - Contest #1	ptice	db/problems/coci/2009/online/contest_1/ptice
+Croatian Open Competitions in Informatics 2008/2009 - Contest #1	skakavac	db/problems/coci/2009/online/contest_1/skakavac
+Croatian Open Competitions in Informatics 2008/2009 - Contest #1	skocimis	db/problems/coci/2009/online/contest_1/skocimis
+Croatian Open Competitions in Informatics 2008/2009 - Contest #2	cavli	db/problems/coci/2009/online/contest_2/cavli
+Croatian Open Competitions in Informatics 2008/2009 - Contest #2	kornislav	db/problems/coci/2009/online/contest_2/kornislav
+Croatian Open Competitions in Informatics 2008/2009 - Contest #2	perket	db/problems/coci/2009/online/contest_2/perket
+Croatian Open Competitions in Informatics 2008/2009 - Contest #2	reseto	db/problems/coci/2009/online/contest_2/reseto
+Croatian Open Competitions in Informatics 2008/2009 - Contest #2	setnja	db/problems/coci/2009/online/contest_2/setnja
+Croatian Open Competitions in Informatics 2008/2009 - Contest #2	svada	db/problems/coci/2009/online/contest_2/svada
+Croatian Open Competitions in Informatics 2008/2009 - Contest #3	bst	db/problems/coci/2009/online/contest_3/bst
+Croatian Open Competitions in Informatics 2008/2009 - Contest #3	cross	db/problems/coci/2009/online/contest_3/cross
+Croatian Open Competitions in Informatics 2008/2009 - Contest #3	kemija	db/problems/coci/2009/online/contest_3/kemija
+Croatian Open Competitions in Informatics 2008/2009 - Contest #3	matrica	db/problems/coci/2009/online/contest_3/matrica
+Croatian Open Competitions in Informatics 2008/2009 - Contest #3	najkraci	db/problems/coci/2009/online/contest_3/najkraci
+Croatian Open Competitions in Informatics 2008/2009 - Contest #3	pet	db/problems/coci/2009/online/contest_3/pet
+National Olympiad in Informatics 2007	hole	db/problems/noi/2007/hole
+National Olympiad in Informatics 2007	jawbreak	db/problems/noi/2007/jawbreak
+National Olympiad in Informatics 2007	street	db/problems/noi/2007/street
+Olimpiada Brasileira de Informatica 2006 - Fase 1 - Nível 1	conversa	db/problems/obi/2006/fase1-nivel1/conversa
+Olimpiada Brasileira de Informatica 2006 - Fase 1 - Nível 1	marg	db/problems/obi/2006/fase1-nivel1/marg
+Olimpiada Brasileira de Informatica 2006 - Fase 1 - Nível 1	mono	db/problems/obi/2006/fase1-nivel1/mono
+Olimpiada Brasileira de Informatica 2006 - Fase 1 - Nível 2	caju	db/problems/obi/2006/fase1-nivel2/caju
+Olimpiada Brasileira de Informatica 2006 - Fase 1 - Nível 2	cartas	db/problems/obi/2006/fase1-nivel2/cartas
+Olimpiada Brasileira de Informatica 2006 - Fase 1 - Nível 2	escada	db/problems/obi/2006/fase1-nivel2/escada
+Olimpiada Brasileira de Informatica 2006 - Fase 1 - Nível 2	museu	db/problems/obi/2006/fase1-nivel2/museu
+Olimpiada Brasileira de Informatica 2006 - Fase 1 - Nível 2	truco	db/problems/obi/2006/fase1-nivel2/truco
+Olimpiada Brasileira de Informatica 2006 - Fase 2 - Nível 1	auto	db/problems/obi/2006/fase2-nivel1/auto
+Olimpiada Brasileira de Informatica 2006 - Fase 2 - Nível 1	lobo	db/problems/obi/2006/fase2-nivel1/lobo
+Olimpiada Brasileira de Informatica 2006 - Fase 2 - Nível 1	quadrado	db/problems/obi/2006/fase2-nivel1/quadrado
+Olimpiada Brasileira de Informatica 2006 - Fase 2 - Nível 2	lobo	db/problems/obi/2006/fase2-nivel2/lobo
+Olimpiada Brasileira de Informatica 2006 - Fase 2 - Nível 2	penalidade	db/problems/obi/2006/fase2-nivel2/penalidade
+Olimpiada Brasileira de Informatica 2006 - Fase 2 - Nível 2	sub	db/problems/obi/2006/fase2-nivel2/sub
+Olimpiada Brasileira de Informatica 2006 - Seletiva - Prova final	multisoma	db/problems/obi/2006/seletiva-final/multisoma
+Olimpiada Brasileira de Informatica 2006 - Seletiva - Prova final	perolas	db/problems/obi/2006/seletiva-final/perolas
+Olimpiada Brasileira de Informatica 2006 - Seletiva - Prova final	tele	db/problems/obi/2006/seletiva-final/tele
+Olimpiada Brasileira de Informatica 2007 - Fase 1 - Nível 2	choc	db/problems/obi/2007/fase1-nivel2/choc
+Olimpiada Brasileira de Informatica 2007 - Fase 1 - Nível 2	mobile	db/problems/obi/2007/fase1-nivel2/mobile
+Olimpiada Brasileira de Informatica 2007 - Fase 1 - Nível 2	pastas	db/problems/obi/2007/fase1-nivel2/pastas
+Olimpiada Brasileira de Informatica 2007 - Fase 1 - Nível 2	repos	db/problems/obi/2007/fase1-nivel2/repos
+Olimpiada Brasileira de Informatica 2007 - Fase 1 - Nível 2	saco	db/problems/obi/2007/fase1-nivel2/saco
+Olimpiada Brasileira de Informatica 2007 - Fase 2 - Nível 1	metro	db/problems/obi/2007/fase2-nivel1/metro
+Olimpiada Brasileira de Informatica 2007 - Fase 2 - Nível 1	tele	db/problems/obi/2007/fase2-nivel1/tele
+Olimpiada Brasileira de Informatica 2007 - Fase 2 - Nível 1	uiqui	db/problems/obi/2007/fase2-nivel1/uiqui
+Olimpiada Brasileira de Informatica 2007 - Fase 2 - Nível 2	lab	db/problems/obi/2007/fase2-nivel2/lab
+Olimpiada Brasileira de Informatica 2007 - Fase 2 - Nível 2	pizza	db/problems/obi/2007/fase2-nivel2/pizza
+Olimpiada Brasileira de Informatica 2007 - Fase 2 - Nível 2	tele	db/problems/obi/2007/fase2-nivel2/tele
+Olimpiada Brasileira de Informatica 2007 - Prova 1 - Nível 1	colisoes	db/problems/obi/2007/fase1-nivel1/colisoes
+Olimpiada Brasileira de Informatica 2007 - Prova 1 - Nível 1	magico	db/problems/obi/2007/fase1-nivel1/magico
+Olimpiada Brasileira de Informatica 2007 - Prova 1 - Nível 1	perdida	db/problems/obi/2007/fase1-nivel1/perdida
+Olimpiada Brasileira de Informatica 2007 - Seletiva - Dia 1	alfa	db/problems/obi/2007/seletiva-dia1/alfa
+Olimpiada Brasileira de Informatica 2007 - Seletiva - Dia 2	estrada	db/problems/obi/2007/seletiva-dia2/estrada
+Olimpiada Brasileira de Informatica 2007 - Seletiva - Dia 3	parallel	db/problems/obi/2007/seletiva-dia3/parallel
+Olimpiada Brasileira de Informatica 2007 - Seletiva - Final	contando	db/problems/obi/2007/seletiva-final/contando
+Olimpiada Brasileira de Informatica 2007 - Seletiva - Final	somas	db/problems/obi/2007/seletiva-final/somas
+Olimpiada Brasileira de Informatica 2007 - Seletiva - Final	viagem	db/problems/obi/2007/seletiva-final/viagem
+Olimpiada Brasileira de Informatica 2008 - Fase 1 - Nível 1	insens	db/problems/obi/2008/fase1-nivel1/insens
+Olimpiada Brasileira de Informatica 2008 - Fase 1 - Nível 1	obi	db/problems/obi/2008/fase1-nivel1/obi
+Olimpiada Brasileira de Informatica 2008 - Fase 1 - Nível 1	telefone	db/problems/obi/2008/fase1-nivel1/telefone
+Olimpiada Brasileira de Informatica 2008 - Fase 1 - Nível 2	aviao	db/problems/obi/2008/fase1-nivel2/aviao
+Olimpiada Brasileira de Informatica 2008 - Fase 1 - Nível 2	lanche	db/problems/obi/2008/fase1-nivel2/lanche
+Olimpiada Brasileira de Informatica 2008 - Fase 1 - Nível 2	obi	db/problems/obi/2008/fase1-nivel2/obi
+Olimpiada Brasileira de Informatica 2008 - Fase 1 - Nível 2	ogros	db/problems/obi/2008/fase1-nivel2/ogros
+Olimpiada Brasileira de Informatica 2008 - Fase 1 - Nível 2	telefone	db/problems/obi/2008/fase1-nivel2/telefone
+Olimpiada Brasileira de Informatica 2008 - Fase 1 - Nível Junior	2008	db/problems/obi/2008/fase1-junior/obi
+Olimpiada Brasileira de Informatica 2008 - Fase 1 - Nível Junior	telefone	db/problems/obi/2008/fase1-junior/telefone
+Olimpiada Brasileira de Informatica 2008 - Fase 1 - Nível Junior	vestib	db/problems/obi/2008/fase1-junior/vestib
+Olimpiada Brasileira de Informatica 2008 - Fase 2 - Nível 1	cavalos	db/problems/obi/2008/fase2-nive1/cavalos
+Olimpiada Brasileira de Informatica 2008 - Fase 2 - Nível 1	obi	db/problems/obi/2008/fase2-nive1/auto
+Olimpiada Brasileira de Informatica 2008 - Fase 2 - Nível 1	viagem	db/problems/obi/2008/fase2-nive1/viagem
+Olimpiada Brasileira de Informatica 2008 - Fase 2 - Nível 2	auto	db/problems/obi/2008/fase2-nivel2/auto
+Olimpiada Brasileira de Informatica 2008 - Fase 2 - Nível 2	chuva	db/problems/obi/2008/fase2-nivel2/chuva
+Olimpiada Brasileira de Informatica 2008 - Fase 2 - Nível 2	frete	db/problems/obi/2008/fase2-nivel2/frete
+Olimpiada Brasileira de Informatica 2008 - Fase 2 - Nível 2	ortografia	db/problems/obi/2008/fase2-nivel2/ortografia
+Olimpiada Brasileira de Informatica 2008 - Fase 2 - Nível Junior	acoes	db/problems/obi/2008/fase2-junior/acoes
+Olimpiada Brasileira de Informatica 2008 - Fase 2 - Nível Junior	auto	db/problems/obi/2008/fase2-junior/auto
+Olimpiada Brasileira de Informatica 2008 - Fase 2 - Nível Junior	minicalc	db/problems/obi/2008/fase2-junior/minicalc
+Olimpiada Brasileira de Informatica 2008 - Seletiva - Dia 1	truque	db/problems/obi/2008/seletiva-dia1/truque
+Olimpiada Brasileira de Informatica 2008 - Seletiva - Dia 2	super	db/problems/obi/2008/seletiva-dia2/super
+Olimpiada Brasileira de Informatica 2008 - Seletiva - Dia 3	viagem	db/problems/obi/2008/seletiva-dia3/viagem
+Olimpiada Brasileira de Informatica 2008 - Seletiva - Final	laser	db/problems/obi/2008/seletiva-final/laser
+Olimpiada Brasileira de Informatica 2008 - Seletiva - Final	luzes	db/problems/obi/2008/seletiva-final/luzes
+Olimpiada Brasileira de Informatica 2008 - Seletiva - Final	trapezio	db/problems/obi/2008/seletiva-final/trapezio
+Olimpiada Brasileira de Informatica 2009 - Fase 2 - Nível 2	cadeiras	db/problems/obi/2009/fase2-nivel2/cadeiras
+Olimpiada Brasileira de Informatica 2009 - Fase 2 - Nível 2	chocolate	db/problems/obi/2009/fase2-nivel2/chocolate
+Olimpiada Brasileira de Informatica 2009 - Fase 2 - Nível 2	simulador	db/problems/obi/2009/fase2-nivel2/simulador
+croatian highschool competitions in informatics 2002 - National - Junior - day 2	one	db/problems/coci/2002/national-junior-day2/one
