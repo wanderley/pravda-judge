@@ -3218,3 +3218,319 @@ Completed in 259ms (View: 1, DB: 0) | 200 OK [http://localhost/status/2009111610
 Processing ProblemController#status (for ::1 at 2009-11-16 10:59:30) [GET]
   Parameters: {"nick"=>"wanderley", "date"=>"20091116101732"}
 Completed in 3157ms (View: 14, DB: 0) | 200 OK [http://localhost/status/20091116101732.wanderley]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-16 14:19:35) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 2689ms (View: 2648, DB: 0) | 200 OK [http://localhost/problems]
+
+
+Processing ProblemController#index (for 192.168.0.2 at 2009-11-16 15:30:05) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 564ms (View: 545, DB: 0) | 200 OK [http://192.168.0.100/problems]
+
+
+Processing ProblemController#submit (for 192.168.0.2 at 2009-11-16 15:30:17) [GET]
+  Parameters: {"problem_code"=>"poklon", "problem_source"=>"Croatian Highschool Competitions in Informatics 2008 - National - Senior - Day 2"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://192.168.0.100/problems/submit?problem_code=poklon&problem_source=Croatian+Highschool+Competitions+in+Informatics+2008+-+National+-+Senior+-+Day+2]
+
+
+Processing ProblemController#index (for 192.168.0.203 at 2009-11-16 15:33:23) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 53ms (View: 47, DB: 0) | 200 OK [http://192.168.0.100/problems]
+
+
+Processing ProblemController#submit (for 192.168.0.203 at 2009-11-16 15:33:48) [GET]
+  Parameters: {"problem_code"=>"poklon", "problem_source"=>"Croatian Open Competitions in Informatics 2007/2008 - Contest #4"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://192.168.0.100/problems/submit?problem_code=poklon&problem_source=Croatian+Open+Competitions+in+Informatics+2007%2F2008+-+Contest+%234]
+
+
+Processing ProblemController#submited (for 192.168.0.203 at 2009-11-16 15:34:26) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"#include <cstdio>\r\n#include <cstdlib>\r\n#include <algorithm>\r\n#define MAX 1000001\r\n\r\nusing namespace std;\r\n\r\nstruct intervalo {\r\n\tint b, e;\r\n};\r\n\r\nbool operator < (const intervalo &a, const intervalo &b) {\r\n\tif (a.b == b.b)\r\n\t\treturn a.e < b.e;\r\n\treturn a.b > b.b;\r\n}\r\n\r\nint N;\r\nintervalo in[MAX];\r\nint tree[MAX];\r\n\r\nint getmax (int x) {\r\n\tint b = 0;\r\n\twhile (x > 0) {\r\n\t\tb = max (b, tree[x]);\r\n\t\tx -= x &(-x);\r\n\t}\r\n\treturn b;\r\n}\r\n\r\nvoid update (int x, int b) {\r\n\twhile (x < MAX) {\r\n\t\ttree[x] = max (tree[x], b);\r\n\t\tx += x &(-x);\r\n\t}\r\n}\r\n\t\r\n\r\nvoid f (int n) {\r\n\tint r = getmax (in[n].e) + 1;\r\n\tupdate (in[n].e, r);\r\n}\r\n\r\nint main () {\r\n\tscanf (\"%d\", &N);\r\n\tfor (int i = 0; i < N; i++)\r\n\t\tscanf (\"%d%d\", &in[i].b, &in[i].e);\r\n\t//in[N].b = 0; in[N++].e = MAX - 10;\r\n\tsort (in, in + N);\r\n\tfor (int i = 0; i < MAX; i++)\r\n\t\ttree[i] = 0;\r\n\tfor (int i = 0; i < N; i++)\r\n\t\tf (i);\r\n\tprintf (\"%d\\n\", getmax (MAX-5));\r\n\treturn 0;\r\n}", "nick"=>"wanderleytroxa", "authenticity_token"=>"nMwIWHdFss6isWd84a4mO4e4k4pXPBuww+wG0pWf4CQ=", "problem_code"=>"poklon", "problem_source"=>"Croatian Open Competitions in Informatics 2007/2008 - Contest #4"}
+Redirected to http://192.168.0.100:3000/status/20091116153426.wanderleytroxa
+Completed in 2044ms (DB: 0) | 302 Found [http://192.168.0.100/problems/submited]
+
+
+Processing ProblemController#status (for 192.168.0.203 at 2009-11-16 15:34:28) [GET]
+  Parameters: {"nick"=>"wanderleytroxa", "date"=>"20091116153426"}
+Completed in 2123ms (View: 14, DB: 0) | 200 OK [http://192.168.0.100/status/20091116153426.wanderleytroxa]
+
+
+Processing ProblemController#status (for 192.168.0.203 at 2009-11-16 15:34:46) [GET]
+  Parameters: {"nick"=>"wanderleytroxa", "date"=>"20091116153426"}
+Completed in 631ms (View: 1, DB: 0) | 200 OK [http://192.168.0.100/status/20091116153426.wanderleytroxa]
+
+
+Processing ProblemController#status (for 192.168.0.203 at 2009-11-16 15:34:53) [GET]
+  Parameters: {"nick"=>"wanderleytroxa", "date"=>"20091116153426"}
+Completed in 252ms (View: 1, DB: 0) | 200 OK [http://192.168.0.100/status/20091116153426.wanderleytroxa]
+
+
+Processing ProblemController#status (for 192.168.0.203 at 2009-11-16 15:34:55) [GET]
+  Parameters: {"nick"=>"wanderleytroxa", "date"=>"20091116153426"}
+Completed in 281ms (View: 1, DB: 0) | 200 OK [http://192.168.0.100/status/20091116153426.wanderleytroxa]
+
+
+Processing ProblemController#status (for 192.168.0.203 at 2009-11-16 15:34:55) [GET]
+  Parameters: {"nick"=>"wanderleytroxa", "date"=>"20091116153426"}
+Completed in 275ms (View: 1, DB: 0) | 200 OK [http://192.168.0.100/status/20091116153426.wanderleytroxa]
+
+
+Processing ProblemController#status (for 192.168.0.203 at 2009-11-16 15:34:55) [GET]
+  Parameters: {"nick"=>"wanderleytroxa", "date"=>"20091116153426"}
+Completed in 277ms (View: 1, DB: 0) | 200 OK [http://192.168.0.100/status/20091116153426.wanderleytroxa]
+
+
+Processing ProblemController#submited (for 192.168.0.2 at 2009-11-16 15:36:49) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"#include <cstdio>\r\n#include <iostream>\r\n#include <sstream>\r\n#include <string>\r\n#include <cstring>\r\n#include <vector>\r\n#include <cmath>\r\n#include <queue>\r\n#include <stack>\r\n#include <algorithm>\r\n#include <set>\r\n#include <map>\r\n#include <bitset>\r\n#include <utility>\r\n#include <cassert>\r\n\r\n#define INF 900900900\r\n\r\n#define REP(i, a, b) for (typeof(a) i = a; i < b; i++)\r\n#define FOR(i, k) REP(i, 0, k)\r\n\r\n#define all(x) x.begin(), x.end()\r\n\r\n#define mp make_pair\r\n#define pb push_back\r\n\r\n#ifdef DEBUG\r\n#define watch(x) cout << #x << \": \" << x << endl\r\n#define debug(x...) printf(x)\r\n#define dassert(x...) assert(x)\r\n#else\r\n#define watch(x) \r\n#define debug(x...) \r\n#define dassert(x...) \r\n#endif\r\n\r\nusing namespace std;\r\n\r\ntypedef long long LL;\r\ntypedef pair < int, int > PII;\r\ntypedef vector < int > VI;\r\ntypedef vector < string > VS;\r\n\r\nconst int N = 100009;\r\n\r\nPII inter[N];\r\nint v[N];\r\nint head[N]; //head[i] = cabeca da seq com tam. restante i (indice)\r\nint lis(int n){\r\n        #ifdef DEBUG\r\n        FOR(i, n) watch(v[i]);\r\n        #endif\r\n\r\n        FOR(i, n + 1) head[i] = INF;\r\n        head[0] = 0;\r\n        debug(\"comecando algo\\n\");\r\n        REP(i, 1, n){\r\n                watch(i);\r\n                if (v[i] < v[0]){\r\n                        head[0] = i;\r\n                        continue;\r\n                }\r\n\r\n                int begin = 0, end = n; //nao inclsive\r\n                int ans = 0;\r\n                while (begin < end){\r\n                        int mid = (begin + end) / 2;\r\n                        if (head[mid] == INF || v[head[mid]] > v[i]) end = mid;\r\n                        else{\r\n                                ans = mid;\r\n                                begin = mid + 1;\r\n                        }\r\n                }\r\n\r\n                debug(\"fez busca\\n\");\r\n                watch(ans);\r\n\r\n                if (head[ans + 1] == INF || v[head[ans + 1]] > v[i])\r\n                        head[ans + 1] = i;\r\n        }\r\n        debug(\"achar resposta final\\n\");\r\n        int begin = 0, end = n;\r\n        int ans = 0;\r\n        while (begin < end){\r\n                int mid = (begin + end) / 2;\r\n                if (head[mid] == INF) end = mid;\r\n                else{\r\n                        ans = mid;\r\n                        begin = mid + 1;\r\n                }\r\n        }\r\n        return ans + 1;\r\n}\r\nint main(){\r\n        int n;\r\n        scanf(\"%d\", &n);\r\n        FOR(i, n){\r\n                scanf(\"%d %d\", &inter[i].first, &inter[i].second);\r\n                inter[i].second = -inter[i].second;\r\n        }\r\n\r\n        sort(inter, inter + n);\r\n        FOR(i, n)\r\n                v[i] = inter[i].second;\r\n\r\n        printf(\"%d\\n\", lis(n));\r\n\r\n        return 0;\r\n}\r\n\r\n\r\n", "nick"=>"Renato_Ferreira", "authenticity_token"=>"mfkyFhU3Gsso1w/sny9GWCYcTqf0d9AnoEyp8EkRMB8=", "problem_code"=>"poklon", "problem_source"=>"Croatian Highschool Competitions in Informatics 2008 - National - Senior - Day 2"}
+Redirected to http://192.168.0.100:3000/status/20091116153649.Renato_Ferreira
+Completed in 2035ms (DB: 0) | 302 Found [http://192.168.0.100/problems/submited]
+
+
+Processing ProblemController#status (for 192.168.0.2 at 2009-11-16 15:36:51) [GET]
+  Parameters: {"nick"=>"Renato_Ferreira", "date"=>"20091116153649"}
+Completed in 258ms (View: 1, DB: 0) | 200 OK [http://192.168.0.100/status/20091116153649.Renato_Ferreira]
+
+
+Processing ProblemController#status (for 192.168.0.203 at 2009-11-16 15:37:13) [GET]
+  Parameters: {"nick"=>"wanderleytroxa", "date"=>"20091116153426"}
+Completed in 264ms (View: 1, DB: 0) | 200 OK [http://192.168.0.100/status/20091116153426.wanderleytroxa]
+
+
+Processing ProblemController#status (for 192.168.0.203 at 2009-11-16 15:38:18) [GET]
+  Parameters: {"nick"=>"wanderleytroxa", "date"=>"20091116153426"}
+Completed in 257ms (View: 1, DB: 0) | 200 OK [http://192.168.0.100/status/20091116153426.wanderleytroxa]
+
+
+Processing ProblemController#index (for 192.168.0.2 at 2009-11-16 15:40:47) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 51ms (View: 46, DB: 0) | 200 OK [http://192.168.0.100/problems]
+
+
+Processing ProblemController#submit (for 192.168.0.2 at 2009-11-16 15:40:54) [GET]
+  Parameters: {"problem_code"=>"poklon", "problem_source"=>"Croatian Highschool Competitions in Informatics 2008 - National - Senior - Day 2"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://192.168.0.100/problems/submit?problem_code=poklon&problem_source=Croatian+Highschool+Competitions+in+Informatics+2008+-+National+-+Senior+-+Day+2]
+
+
+Processing ProblemController#status (for 192.168.0.2 at 2009-11-16 15:41:26) [GET]
+  Parameters: {"nick"=>"Renato_Ferreira", "date"=>"20091116153649"}
+Completed in 2285ms (View: 1, DB: 0) | 200 OK [http://192.168.0.100/status/20091116153649.Renato_Ferreira]
+
+
+Processing ProblemController#status (for 192.168.0.203 at 2009-11-16 15:41:29) [GET]
+  Parameters: {"nick"=>"wanderleytroxa", "date"=>"20091116153426"}
+Completed in 259ms (View: 1, DB: 0) | 200 OK [http://192.168.0.100/status/20091116153426.wanderleytroxa]
+
+
+Processing ApplicationController#index (for 192.168.0.2 at 2009-11-16 15:54:46) [GET]
+
+ActionController::RoutingError (No route matches "/poblems" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProblemController#index (for 192.168.0.2 at 2009-11-16 15:54:52) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 116ms (View: 111, DB: 0) | 200 OK [http://192.168.0.100/problems]
+
+
+Processing ProblemController#submit (for 192.168.0.2 at 2009-11-16 15:54:56) [GET]
+  Parameters: {"problem_code"=>"poklon", "problem_source"=>"Croatian Highschool Competitions in Informatics 2008 - National - Senior - Day 2"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://192.168.0.100/problems/submit?problem_code=poklon&problem_source=Croatian+Highschool+Competitions+in+Informatics+2008+-+National+-+Senior+-+Day+2]
+
+
+Processing ProblemController#submited (for 192.168.0.2 at 2009-11-16 15:55:58) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"#include <cstdio>\r\n#include <iostream>\r\n#include <sstream>\r\n#include <string>\r\n#include <cstring>\r\n#include <vector>\r\n#include <cmath>\r\n#include <queue>\r\n#include <stack>\r\n#include <algorithm>\r\n#include <set>\r\n#include <map>\r\n#include <bitset>\r\n#include <utility>\r\n#include <cassert>\r\n\r\n#define INF 900900900\r\n\r\n#define REP(i, a, b) for (typeof(a) i = a; i < b; i++)\r\n#define FOR(i, k) REP(i, 0, k)\r\n\r\n#define all(x) x.begin(), x.end()\r\n\r\n#define mp make_pair\r\n#define pb push_back\r\n\r\n#ifdef DEBUG\r\n#define watch(x) cout << #x << \": \" << x << endl\r\n#define debug(x...) printf(x)\r\n#define dassert(x...) assert(x)\r\n#else\r\n#define watch(x) \r\n#define debug(x...) \r\n#define dassert(x...) \r\n#endif\r\n\r\nusing namespace std;\r\n\r\ntypedef long long LL;\r\ntypedef pair < int, int > PII;\r\ntypedef vector < int > VI;\r\ntypedef vector < string > VS;\r\n\r\nconst int N = 100009;\r\n\r\nPII inter[N];\r\nint v[N];\r\nint head[N]; //head[i] = cabeca da seq com tam. restante i (indice)\r\n\r\nint lis(int n){\r\n        #ifdef DEBUG\r\n        FOR(i, n) watch(v[i]);\r\n        #endif\r\n\r\n        FOR(i, n + 1) head[i] = INF;\r\n        head[0] = 0;\r\n        debug(\"comecando algo\\n\");\r\n        REP(i, 1, n){\r\n                watch(i);\r\n                if (v[i] < v[head[0]]){\r\n                        head[0] = i;\r\n                        watch(head[0]);\r\n                        continue;\r\n                }\r\n\r\n                int begin = 0, end = n; //nao inclsive\r\n                int ans = 0;\r\n                while (begin < end){\r\n                        int mid = (begin + end) / 2;\r\n                        if (head[mid] == INF || v[head[mid]] > v[i]) end = mid;\r\n                        else{\r\n                                ans = mid;\r\n                                begin = mid + 1;\r\n                        }\r\n                }\r\n\r\n                debug(\"fez busca\\n\");\r\n                watch(ans);\r\n\r\n                if (head[ans + 1] == INF || v[head[ans + 1]] > v[i])\r\n                        head[ans + 1] = i;\r\n        }\r\n        debug(\"achar resposta final\\n\");\r\n        int begin = 0, end = n;\r\n        int ans = 0;\r\n        while (begin < end){\r\n                int mid = (begin + end) / 2;\r\n                if (head[mid] == INF) end = mid;\r\n                else{\r\n                        ans = mid;\r\n                        begin = mid + 1;\r\n                }\r\n        }\r\n        return ans + 1;\r\n}\r\n\r\nint main(){\r\n        int n;\r\n        scanf(\"%d\", &n);\r\n        FOR(i, n){\r\n                scanf(\"%d %d\", &inter[i].first, &inter[i].second);\r\n                inter[i].second = -inter[i].second;\r\n        }\r\n\r\n        sort(inter, inter + n);\r\n        FOR(i, n)\r\n                v[i] = inter[i].second;\r\n\r\n        printf(\"%d\\n\", lis(n));\r\n\r\n        return 0;\r\n}\r\n", "nick"=>"Renato_Ferreira", "authenticity_token"=>"mfkyFhU3Gsso1w/sny9GWCYcTqf0d9AnoEyp8EkRMB8=", "problem_code"=>"poklon", "problem_source"=>"Croatian Highschool Competitions in Informatics 2008 - National - Senior - Day 2"}
+Redirected to http://192.168.0.100:3000/status/20091116155558.Renato_Ferreira
+Completed in 2007ms (DB: 0) | 302 Found [http://192.168.0.100/problems/submited]
+
+
+Processing ProblemController#status (for 192.168.0.2 at 2009-11-16 15:56:00) [GET]
+  Parameters: {"nick"=>"Renato_Ferreira", "date"=>"20091116155558"}
+Completed in 557ms (View: 1, DB: 0) | 200 OK [http://192.168.0.100/status/20091116155558.Renato_Ferreira]
+
+
+Processing ProblemController#status (for 192.168.0.2 at 2009-11-16 15:57:57) [GET]
+  Parameters: {"nick"=>"Renato_Ferreira", "date"=>"20091116155558"}
+Completed in 1648ms (View: 15, DB: 0) | 200 OK [http://192.168.0.100/status/20091116155558.Renato_Ferreira]
+
+
+Processing ProblemController#status (for 192.168.0.2 at 2009-11-16 15:58:14) [GET]
+  Parameters: {"nick"=>"Renato_Ferreira", "date"=>"20091116155558"}
+Completed in 259ms (View: 1, DB: 0) | 200 OK [http://192.168.0.100/status/20091116155558.Renato_Ferreira]
+
+
+Processing ProblemController#status (for 192.168.0.2 at 2009-11-16 15:58:16) [GET]
+  Parameters: {"nick"=>"Renato_Ferreira", "date"=>"20091116155558"}
+Completed in 259ms (View: 1, DB: 0) | 200 OK [http://192.168.0.100/status/20091116155558.Renato_Ferreira]
+
+
+Processing ProblemController#index (for 192.168.0.2 at 2009-11-16 15:59:27) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 118ms (View: 46, DB: 0) | 200 OK [http://192.168.0.100/problems]
+
+
+Processing ProblemController#submit (for 192.168.0.2 at 2009-11-16 15:59:37) [GET]
+  Parameters: {"problem_code"=>"poklon", "problem_source"=>"Croatian Open Competitions in Informatics 2007/2008 - Contest #4"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://192.168.0.100/problems/submit?problem_code=poklon&problem_source=Croatian+Open+Competitions+in+Informatics+2007%2F2008+-+Contest+%234]
+
+
+Processing ProblemController#submited (for 192.168.0.2 at 2009-11-16 16:00:18) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"#include <cstdio>\r\n#include <iostream>\r\n#include <sstream>\r\n#include <string>\r\n#include <cstring>\r\n#include <vector>\r\n#include <cmath>\r\n#include <queue>\r\n#include <stack>\r\n#include <algorithm>\r\n#include <set>\r\n#include <map>\r\n#include <bitset>\r\n#include <utility>\r\n#include <cassert>\r\n\r\n#define INF 900900900\r\n\r\n#define REP(i, a, b) for (typeof(a) i = a; i < b; i++)\r\n#define FOR(i, k) REP(i, 0, k)\r\n\r\n#define all(x) x.begin(), x.end()\r\n\r\n#define mp make_pair\r\n#define pb push_back\r\n\r\n#ifdef DEBUG\r\n#define watch(x) cout << #x << \": \" << x << endl\r\n#define debug(x...) printf(x)\r\n#define dassert(x...) assert(x)\r\n#else\r\n#define watch(x) \r\n#define debug(x...) \r\n#define dassert(x...) \r\n#endif\r\n\r\nusing namespace std;\r\n\r\ntypedef long long LL;\r\ntypedef pair < int, int > PII;\r\ntypedef vector < int > VI;\r\ntypedef vector < string > VS;\r\n\r\nconst int N = 100009;\r\n\r\nPII inter[N];\r\nint v[N];\r\nint head[N]; //head[i] = cabeca da seq com tam. restante i (indice)\r\nint lis(int n){\r\n        #ifdef DEBUG\r\n        FOR(i, n) watch(v[i]);\r\n        #endif\r\n\r\n        FOR(i, n + 1) head[i] = INF;\r\n        head[0] = 0;\r\n        debug(\"comecando algo\\n\");\r\n        REP(i, 1, n){\r\n                watch(i);\r\n                if (v[i] < v[head[0]]){\r\n                        head[0] = i;\r\n                        watch(head[0]);\r\n                        continue;\r\n                }\r\n\r\n                int begin = 0, end = n; //nao inclsive\r\n                int ans = 0;\r\n                while (begin < end){\r\n                        int mid = (begin + end) / 2;\r\n                        if (head[mid] == INF || v[head[mid]] > v[i]) end = mid;\r\n                        else{\r\n                                ans = mid;\r\n                                begin = mid + 1;\r\n                        }\r\n                }\r\n\r\n                debug(\"fez busca\\n\");\r\n                watch(ans);\r\n\r\n                if (head[ans + 1] == INF || v[head[ans + 1]] > v[i])\r\n                        head[ans + 1] = i;\r\n        }\r\n        debug(\"achar resposta final\\n\");\r\n        int begin = 0, end = n;\r\n        int ans = 0;\r\n        while (begin < end){\r\n                int mid = (begin + end) / 2;\r\n                if (head[mid] == INF) end = mid;\r\n                else{\r\n                        ans = mid;\r\n                        begin = mid + 1;\r\n                }\r\n        }\r\n        return ans + 1;\r\n}\r\n\r\nint main(){\r\n        int n;\r\n        scanf(\"%d\", &n);\r\n        FOR(i, n){\r\n                scanf(\"%d %d\", &inter[i].first, &inter[i].second);\r\n                inter[i].second = -inter[i].second;\r\n        }\r\n\r\n        sort(inter, inter + n);\r\n        FOR(i, n)\r\n                v[i] = inter[i].second;\r\n\r\n        printf(\"%d\\n\", lis(n));\r\n\r\n        return 0;\r\n}\r\n\r\n", "nick"=>"Renato_Ferreira", "authenticity_token"=>"mfkyFhU3Gsso1w/sny9GWCYcTqf0d9AnoEyp8EkRMB8=", "problem_code"=>"poklon", "problem_source"=>"Croatian Open Competitions in Informatics 2007/2008 - Contest #4"}
+Redirected to http://192.168.0.100:3000/status/20091116160018.Renato_Ferreira
+Completed in 2372ms (DB: 0) | 302 Found [http://192.168.0.100/problems/submited]
+
+
+Processing ProblemController#status (for 192.168.0.2 at 2009-11-16 16:00:21) [GET]
+  Parameters: {"nick"=>"Renato_Ferreira", "date"=>"20091116160018"}
+Completed in 1585ms (View: 15, DB: 0) | 200 OK [http://192.168.0.100/status/20091116160018.Renato_Ferreira]
+
+
+Processing ProblemController#index (for 192.168.0.203 at 2009-11-16 16:00:50) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 118ms (View: 113, DB: 0) | 200 OK [http://192.168.0.100/problems]
+
+
+Processing ProblemController#submit (for 192.168.0.203 at 2009-11-16 16:01:24) [GET]
+  Parameters: {"problem_code"=>"poklon", "problem_source"=>"Croatian Open Competitions in Informatics 2007/2008 - Contest #4"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://192.168.0.100/problems/submit?problem_code=poklon&problem_source=Croatian+Open+Competitions+in+Informatics+2007%2F2008+-+Contest+%234]
+
+
+Processing ProblemController#submited (for 192.168.0.203 at 2009-11-16 16:01:38) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"#include <cstdio>\r\n#include <cstdlib>\r\n#include <algorithm>\r\n#define MAX 1000001\r\n\r\nusing namespace std;\r\n\r\nstruct intervalo {\r\n\tint b, e;\r\n};\r\n\r\nbool operator < (const intervalo &a, const intervalo &b) {\r\n\tif (a.b == b.b)\r\n\t\treturn a.e < b.e;\r\n\treturn a.b > b.b;\r\n}\r\n\r\nint N;\r\nintervalo in[MAX];\r\nint tree[MAX];\r\n\r\nint getmax (int x) {\r\n\tint b = 0;\r\n\twhile (x > 0) {\r\n\t\tb = max (b, tree[x]);\r\n\t\tx -= x &(-x);\r\n\t}\r\n\treturn b;\r\n}\r\n\r\nvoid update (int x, int b) {\r\n\twhile (x < MAX) {\r\n\t\ttree[x] = max (tree[x], b);\r\n\t\tx += x &(-x);\r\n\t}\r\n}\r\n\t\r\n\r\nvoid f (int n) {\r\n\tint r = getmax (in[n].e) + 1;\r\n\tupdate (in[n].e, r);\r\n}\r\n\r\nint main () {\r\n\tscanf (\"%d\", &N);\r\n\tfor (int i = 0; i < N; i++)\r\n\t\tscanf (\"%d%d\", &in[i].b, &in[i].e);\r\n\t//in[N].b = 0; in[N++].e = MAX - 10;\r\n\tsort (in, in + N);\r\n\tfor (int i = 0; i < MAX; i++)\r\n\t\ttree[i] = 0;\r\n\tfor (int i = 0; i < N; i++)\r\n\t\tf (i);\r\n\tprintf (\"%d\\n\", getmax (MAX-5));\r\n\treturn 0;\r\n}", "nick"=>"teste", "authenticity_token"=>"nMwIWHdFss6isWd84a4mO4e4k4pXPBuww+wG0pWf4CQ=", "problem_code"=>"poklon", "problem_source"=>"Croatian Open Competitions in Informatics 2007/2008 - Contest #4"}
+Redirected to http://192.168.0.100:3000/status/20091116160138.teste
+Completed in 2008ms (DB: 0) | 302 Found [http://192.168.0.100/problems/submited]
+
+
+Processing ProblemController#status (for 192.168.0.203 at 2009-11-16 16:01:40) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20091116160138"}
+Completed in 582ms (View: 1, DB: 0) | 200 OK [http://192.168.0.100/status/20091116160138.teste]
+
+
+Processing ProblemController#status (for 192.168.0.203 at 2009-11-16 16:01:50) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20091116160138"}
+Completed in 257ms (View: 1, DB: 0) | 200 OK [http://192.168.0.100/status/20091116160138.teste]
+
+
+Processing ProblemController#submit (for ::1 at 2009-11-16 16:04:06) [GET]
+  Parameters: {"problem_code"=>"poklon", "problem_source"=>"Croatian Open Competitions in Informatics 2007/2008 - Contest #4"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/problems/submit?problem_code=poklon&problem_source=Croatian+Open+Competitions+in+Informatics+2007%2F2008+-+Contest+%234]
+
+
+Processing ProblemController#submited (for ::1 at 2009-11-16 16:05:09) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"#include <stdio.h>\r\n#include <string>\r\n#include <algorithm>\r\nusing namespace std;\r\n\r\nconst int MAXN = 100123;\r\nconst int MAXI = 1000123;\r\n\r\nstruct interv {\r\n  int ini, fim;\r\n};\r\n\r\nbool cmp (const interv &a , const interv &b) {\r\n  if (a.ini != b.ini)\r\n    return a.ini < b.ini;\r\n  return a.fim > b.fim;\r\n}\r\n\r\nint n, dp[MAXN];\r\ninterv data[MAXN];\r\n\r\nint arv[MAXI * 3];\r\n\r\nvoid update (int pos, int val) {\r\n  while (pos < MAXI * 3) {\r\n    arv[pos] = max (arv[pos], val);\r\n    pos += (pos & -pos);\r\n  }\r\n}\r\n\r\nint read (int pos) {\r\n  int ret = 0;\r\n  while (pos > 0) {\r\n    ret  = max (arv[pos], ret);\r\n    pos -= (pos & -pos);\r\n  }\r\n  return ret;\r\n}\r\n\r\n\r\nint main () {\r\n  int i, ret;\r\n\r\n  // reading\r\n  scanf (\"%d\", &n);\r\n  for (i = 0; i < n; i++) {\r\n    scanf (\"%d %d\", &data[i].ini, &data[i].fim);\r\n  }\r\n  sort (data, data + n, cmp);\r\n\r\n  memset (arv, 0, sizeof (arv));\r\n  memset (dp, 0, sizeof (dp));\r\n  ret = 0;\r\n  for (i = n - 1; i >= 0; i--) {\r\n    dp[i] = 1 + read (data[i].fim);\r\n    update (data[i].fim, dp[i]);\r\n    ret = max (ret, dp[i]);\r\n  }\r\n  printf (\"%d\\n\", ret);\r\n\r\n  return 0;\r\n}\r\n", "nick"=>"wanderley", "authenticity_token"=>"4C/kQnj/k7qX/uHbnFPp68uQslNHY0H2fsCLWluZGp8=", "problem_code"=>"poklon", "problem_source"=>"Croatian Open Competitions in Informatics 2007/2008 - Contest #4"}
+Redirected to http://localhost:3000/status/20091116160509.wanderley
+Completed in 2008ms (DB: 0) | 302 Found [http://localhost/problems/submited]
+
+
+Processing ProblemController#status (for ::1 at 2009-11-16 16:05:11) [GET]
+  Parameters: {"nick"=>"wanderley", "date"=>"20091116160509"}
+Completed in 263ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091116160509.wanderley]
+
+
+Processing ProblemController#status (for ::1 at 2009-11-16 16:05:14) [GET]
+  Parameters: {"nick"=>"wanderley", "date"=>"20091116160509"}
+Completed in 260ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091116160509.wanderley]
+
+
+Processing ProblemController#status (for 192.168.0.203 at 2009-11-16 16:06:23) [GET]
+  Parameters: {"nick"=>"wanderley", "date"=>"20091116160509"}
+Completed in 262ms (View: 1, DB: 0) | 200 OK [http://192.168.0.100/status/20091116160509.wanderley]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-16 16:32:12) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 61ms (View: 55, DB: 0) | 200 OK [http://localhost/problems]
+
+
+Processing ProblemController#index (for 192.168.0.203 at 2009-11-16 16:36:01) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 115ms (View: 110, DB: 0) | 200 OK [http://192.168.0.100/problems]
+
+
+Processing ProblemController#index (for 192.168.0.203 at 2009-11-16 17:21:26) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 192ms (View: 173, DB: 0) | 200 OK [http://192.168.0.100/problems]
+
+
+Processing ProblemController#submit (for 192.168.0.203 at 2009-11-16 17:21:36) [GET]
+  Parameters: {"problem_code"=>"poklon", "problem_source"=>"Croatian Open Competitions in Informatics 2007/2008 - Contest #4"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 31ms (View: 30, DB: 0) | 200 OK [http://192.168.0.100/problems/submit?problem_code=poklon&problem_source=Croatian+Open+Competitions+in+Informatics+2007%2F2008+-+Contest+%234]
+
+
+Processing ProblemController#submited (for 192.168.0.203 at 2009-11-16 17:21:57) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"#include <cstdio>\r\n#include <cstdlib>\r\n#include <algorithm>\r\n#include <vector>\r\n#define MAX 100005\r\n#define INF 900900900\r\n\r\nusing namespace std;\r\n\r\nstruct intervalo {\r\n\tint b, e;\r\n};\r\n\r\nbool operator < (const intervalo &a, const intervalo &b) {\r\n\tif (a.b == b.b)\r\n\t\treturn a.e > b.e;\r\n\treturn a.b < b.b;\r\n}\r\n\r\nint N;\r\nintervalo in[MAX];\r\nvector <int> v;\r\n\r\nint main () {\r\n\tscanf (\"%d\", &N);\r\n\tfor (int i = 0; i < N; i++)\r\n\t\tscanf (\"%d%d\", &in[i].b, &in[i].e);\r\n\tsort (in, in + N);\r\n\tv.resize (N+1);\r\n\tfor (int i = 0; i < N; i++)\r\n\t\tin[i].e *= (-1);\r\n\tfor (int i = 0; i <= N; i++)\r\n\t\tv[i] = INF;\r\n\tfor (int i = 0; i < N; i++) {\r\n\t\tvector<int>::iterator it = upper_bound (v.begin(), v.end(), in[i].e);\r\n\t\t(*it) = in[i].e;\r\n\t}\r\n\tfor (int i = N; i >= 0; i--)\r\n\t\tif (v[i] != INF) {\r\n\t\t\tprintf (\"%d\\n\", i + 1);\r\n\t\t\tbreak;\r\n\t\t}\r\n\treturn 0;\r\n}\r\n", "nick"=>"teste", "authenticity_token"=>"nMwIWHdFss6isWd84a4mO4e4k4pXPBuww+wG0pWf4CQ=", "problem_code"=>"poklon", "problem_source"=>"Croatian Open Competitions in Informatics 2007/2008 - Contest #4"}
+Redirected to http://192.168.0.100:3000/status/20091116172157.teste
+Completed in 2051ms (DB: 0) | 302 Found [http://192.168.0.100/problems/submited]
+
+
+Processing ProblemController#status (for 192.168.0.203 at 2009-11-16 17:21:59) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20091116172157"}
+Completed in 2421ms (View: 1, DB: 0) | 200 OK [http://192.168.0.100/status/20091116172157.teste]
+
+
+Processing ProblemController#status (for 192.168.0.203 at 2009-11-16 17:22:04) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20091116172157"}
+Completed in 405ms (View: 1, DB: 0) | 200 OK [http://192.168.0.100/status/20091116172157.teste]
+
+
+Processing ProblemController#status (for 192.168.0.203 at 2009-11-16 17:22:05) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20091116172157"}
+Completed in 325ms (View: 1, DB: 0) | 200 OK [http://192.168.0.100/status/20091116172157.teste]
+
+
+Processing ProblemController#status (for 192.168.0.203 at 2009-11-16 17:22:06) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20091116172157"}
+Completed in 268ms (View: 1, DB: 0) | 200 OK [http://192.168.0.100/status/20091116172157.teste]
+
+
+Processing ProblemController#status (for 192.168.0.203 at 2009-11-16 17:22:07) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20091116172157"}
+Completed in 261ms (View: 1, DB: 0) | 200 OK [http://192.168.0.100/status/20091116172157.teste]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-16 17:22:09) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 120ms (View: 115, DB: 0) | 200 OK [http://localhost/problems]
+
+
+Processing ProblemController#status (for 192.168.0.203 at 2009-11-16 17:22:09) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20091116172157"}
+Completed in 273ms (View: 1, DB: 0) | 200 OK [http://192.168.0.100/status/20091116172157.teste]
