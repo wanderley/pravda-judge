@@ -47,7 +47,7 @@ class ProblemController < ApplicationController
 
     name   = Time.new.strftime('%Y%m%d%H%M%S') + '.' + @nick
     folder = problem[:path] + '/subs/' + name + '/'
-    Dir.mkdir(folder)
+    FileUtils.mkdir_p(folder)
     File.open(folder + 'sol.cpp', 'w') do |sol|
       sol.puts @code
     end

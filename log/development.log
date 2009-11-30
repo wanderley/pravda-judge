@@ -3534,3 +3534,164 @@ Completed in 120ms (View: 115, DB: 0) | 200 OK [http://localhost/problems]
 Processing ProblemController#status (for 192.168.0.203 at 2009-11-16 17:22:09) [GET]
   Parameters: {"nick"=>"teste", "date"=>"20091116172157"}
 Completed in 273ms (View: 1, DB: 0) | 200 OK [http://192.168.0.100/status/20091116172157.teste]
+
+
+Processing ProblemController#index (for 192.168.0.101 at 2009-11-16 17:37:35) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 85ms (View: 79, DB: 0) | 200 OK [http://192.168.0.100/problems]
+
+
+Processing ProblemController#submit (for 192.168.0.101 at 2009-11-16 17:37:54) [GET]
+  Parameters: {"problem_code"=>"icons", "problem_source"=>"COCI 2001 Regional - Juniors"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://192.168.0.100/problems/submit?problem_code=icons&problem_source=COCI+2001+Regional+-+Juniors]
+
+
+Processing ProblemController#submited (for 192.168.0.101 at 2009-11-16 17:39:10) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"#include <cstdio>\r\n\r\nint main () {\r\n\r\n  int x, y, N;\r\n\r\n  x = y = 1;\r\n  scanf (\"%d\", &N);\r\n  while (x * y < N) {\r\n    if (x == y)\r\n      x += 1;\r\n    else\r\n      y += 1;\r\n  }\r\n\r\n  printf (\"%d %d\", x, y);\r\n\r\n  return 0;\r\n}\r\n", "nick"=>"raul", "authenticity_token"=>"FMk+F+YgUKLDX2E/KtDxkCk8LJNsM+Md5P5hJ0AcE5k=", "problem_code"=>"icons", "problem_source"=>"COCI 2001 Regional - Juniors"}
+Redirected to http://192.168.0.100:3000/status/20091116173910.raul
+Completed in 2436ms (DB: 0) | 302 Found [http://192.168.0.100/problems/submited]
+
+
+Processing ProblemController#status (for 192.168.0.101 at 2009-11-16 17:39:12) [GET]
+  Parameters: {"nick"=>"raul", "date"=>"20091116173910"}
+Completed in 555ms (View: 1, DB: 0) | 200 OK [http://192.168.0.100/status/20091116173910.raul]
+
+
+Processing ProblemController#status (for 192.168.0.101 at 2009-11-16 17:39:16) [GET]
+  Parameters: {"nick"=>"raul", "date"=>"20091116173910"}
+Completed in 268ms (View: 1, DB: 0) | 200 OK [http://192.168.0.100/status/20091116173910.raul]
+
+
+Processing ProblemController#status (for 192.168.0.101 at 2009-11-16 17:39:19) [GET]
+  Parameters: {"nick"=>"raul", "date"=>"20091116173910"}
+Completed in 261ms (View: 1, DB: 0) | 200 OK [http://192.168.0.100/status/20091116173910.raul]
+
+
+Processing ProblemController#status (for 192.168.0.101 at 2009-11-16 17:39:22) [GET]
+  Parameters: {"nick"=>"raul", "date"=>"20091116173910"}
+Completed in 258ms (View: 1, DB: 0) | 200 OK [http://192.168.0.100/status/20091116173910.raul]
+
+
+Processing ProblemController#submit (for 192.168.0.101 at 2009-11-16 17:39:54) [GET]
+  Parameters: {"problem_code"=>"domains", "problem_source"=>"COCI 2001 Regional - Juniors"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://192.168.0.100/problems/submit?problem_code=domains&problem_source=COCI+2001+Regional+-+Juniors]
+
+
+Processing ProblemController#submited (for 192.168.0.101 at 2009-11-16 17:40:24) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"#include <cstdio>\r\n#include <string>\r\n#include <cstring>\r\n\r\n#define MAX 120\r\n\r\nusing namespace std;\r\n\r\ntypedef struct domainadress doad;\r\nstruct domainadress {\r\n  string domain;\r\n  int num;\r\n};\r\n\r\nstring s;\r\n\r\nbool verificahttp () {\r\n  if (s.size() >= 7 && s[0] == 'h' && s[1] == 't' && s[2] == 't' && s[3] == 'p' &&\r\n      s[4] == ':' && s[5] == '/' && s[6] == '/')\r\n    return 1;\r\n  return 0;\r\n}\r\n\r\nint main () {\r\n\r\n  doad d[MAX];\r\n  string domachado;\r\n  int N, cnt, marc;\r\n  int aux, cdd = 0, maior;\r\n  char c;\r\n\r\n  scanf (\"%d \", &N);\r\n  for (cnt = 0; cnt < N; cnt++)\r\n    d[cnt].num = 1;\r\n  for (cnt = 0; cnt < N; cnt++) {\r\n    s = \"\";\r\n    while (scanf (\"%c\", &c) && c != '\\n' && c != EOF)\r\n      s += c;\r\n    if (verificahttp())\r\n      marc = 7;\r\n    else\r\n      marc = 0;\r\n    domachado = \"\";\r\n    for (; s[marc] != '\\0' && s[marc] != '/'; marc++) {\r\n      if (s[marc] == '.')\r\n\tdomachado= \"\";\r\n      else\r\n\tdomachado += s[marc];\r\n    }\r\n    for (aux = 0; aux < cdd; aux++) {\r\n      if (domachado == d[aux].domain) {\r\n\td[aux].num++;\r\n\tbreak;\r\n      }\r\n    }\r\n    if (aux == cdd) {\r\n      d[cdd].domain = domachado;\r\n      cdd += 1;\r\n    }\r\n  }\r\n  for (cnt = 0, maior = 0; cnt < cdd; cnt++)\r\n    if (d[cnt].num > maior)\r\n      maior = d[cnt].num;\r\n  printf(\"%d\\n\", maior);\r\n  for (cnt = 0; cnt < cdd; cnt++)\r\n    if (d[cnt].num == maior)\r\n      printf (\"%s \", d[cnt].domain.c_str());\r\n\r\n  return 0;\r\n}\r\n", "nick"=>"raul", "authenticity_token"=>"FMk+F+YgUKLDX2E/KtDxkCk8LJNsM+Md5P5hJ0AcE5k=", "problem_code"=>"domains", "problem_source"=>"COCI 2001 Regional - Juniors"}
+Redirected to http://192.168.0.100:3000/status/20091116174024.raul
+Completed in 2008ms (DB: 0) | 302 Found [http://192.168.0.100/problems/submited]
+
+
+Processing ProblemController#status (for 192.168.0.101 at 2009-11-16 17:40:26) [GET]
+  Parameters: {"nick"=>"raul", "date"=>"20091116174024"}
+Completed in 262ms (View: 1, DB: 0) | 200 OK [http://192.168.0.100/status/20091116174024.raul]
+
+
+Processing ProblemController#status (for 192.168.0.101 at 2009-11-16 17:40:28) [GET]
+  Parameters: {"nick"=>"raul", "date"=>"20091116174024"}
+Completed in 259ms (View: 1, DB: 0) | 200 OK [http://192.168.0.100/status/20091116174024.raul]
+
+
+Processing ProblemController#status (for 192.168.0.101 at 2009-11-16 17:40:29) [GET]
+  Parameters: {"nick"=>"raul", "date"=>"20091116174024"}
+Completed in 259ms (View: 1, DB: 0) | 200 OK [http://192.168.0.100/status/20091116174024.raul]
+
+
+Processing ProblemController#status (for 192.168.0.101 at 2009-11-16 17:40:30) [GET]
+  Parameters: {"nick"=>"raul", "date"=>"20091116174024"}
+Completed in 294ms (View: 1, DB: 0) | 200 OK [http://192.168.0.100/status/20091116174024.raul]
+
+
+Processing ProblemController#status (for 192.168.0.101 at 2009-11-16 17:40:32) [GET]
+  Parameters: {"nick"=>"raul", "date"=>"20091116174024"}
+Completed in 267ms (View: 1, DB: 0) | 200 OK [http://192.168.0.100/status/20091116174024.raul]
+
+
+Processing ProblemController#index (for 192.168.0.200 at 2009-11-16 17:41:28) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 52ms (View: 47, DB: 0) | 200 OK [http://192.168.0.100/problems]
+
+
+Processing ProblemController#submit (for 192.168.0.200 at 2009-11-16 17:41:41) [GET]
+  Parameters: {"problem_code"=>"icons", "problem_source"=>"COCI 2001 Regional - Juniors"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://192.168.0.100/problems/submit?problem_code=icons&problem_source=COCI+2001+Regional+-+Juniors]
+
+
+Processing ProblemController#submited (for 192.168.0.200 at 2009-11-16 17:42:17) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"#include<cstdio>\r\n#define MAX 2100020\r\n\r\nint main(){\r\n\r\n  int a, b, n, s1, s2, menor = MAX;\r\n\r\n  scanf(\"%d\", &n);\r\n  for(int i=1;i<=n;i++){\r\n    a = i;\r\n    b = n/i;\r\n    b = a*b < n ? b + 1 : b;\r\n    if(a + b < menor){\r\n      menor = a + b;\r\n      s1 = a;\r\n      s2 = b;\r\n    }\r\n  }\r\n  printf(\"%d %d\\n\", s1, s2);\r\n  return 0;\r\n}\r\n", "nick"=>"RS", "authenticity_token"=>"Z4HLEebxd4m/QiT9Fv8JUl787gLPoTa5+v4EXOtLCAk=", "problem_code"=>"icons", "problem_source"=>"COCI 2001 Regional - Juniors"}
+Redirected to http://192.168.0.100:3000/status/20091116174217.RS
+Completed in 2007ms (DB: 0) | 302 Found [http://192.168.0.100/problems/submited]
+
+
+Processing ProblemController#status (for 192.168.0.200 at 2009-11-16 17:42:19) [GET]
+  Parameters: {"nick"=>"RS", "date"=>"20091116174217"}
+Completed in 324ms (View: 67, DB: 0) | 200 OK [http://192.168.0.100/status/20091116174217.RS]
+
+
+Processing ProblemController#status (for 192.168.0.200 at 2009-11-16 17:42:23) [GET]
+  Parameters: {"nick"=>"RS", "date"=>"20091116174217"}
+Completed in 263ms (View: 1, DB: 0) | 200 OK [http://192.168.0.100/status/20091116174217.RS]
+
+
+Processing ProblemController#submit (for 192.168.0.200 at 2009-11-16 17:42:34) [GET]
+  Parameters: {"problem_code"=>"clock", "problem_source"=>"COCI 2001 Regional - Juniors"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://192.168.0.100/problems/submit?problem_code=clock&problem_source=COCI+2001+Regional+-+Juniors]
+
+
+Processing ProblemController#submited (for 192.168.0.200 at 2009-11-16 17:42:51) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"#include<cstdio>\r\n#define MAX 20\r\n\r\nint m[MAX][MAX];\r\nchar aux[MAX][MAX];\r\nint n1, n2, n3, n4;\r\n\r\nint tenta(int n, int ini, int fim){\r\n\r\n  int k = 0;\r\n  int v[10][15] = {\r\n    {1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1},\r\n    {0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1},\r\n    {1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1},\r\n    {1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1},\r\n    {1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1},\r\n    {1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1},\r\n    {1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1},\r\n    {1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1},\r\n    {1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1},\r\n    {1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1}\r\n  };\r\n\r\n  for(int i=0;i<5;i++){\r\n    for(int j=ini;j<fim;j++){\r\n      if(m[i][j] == 1 && v[n][k] == 0){\r\n\treturn 0; \r\n      }\r\n      k++;\r\n    }\r\n  }\r\n  return 1;\r\n}\r\n\r\nvoid processa(int numero){\r\n\r\n  int jini, jfim, res;\r\n\r\n  if(numero == 0){\r\n    jini = 0; jfim = 3;\r\n  }\r\n  else if(numero == 1){\r\n    jini = 3; jfim = 6;\r\n  }\r\n  else if(numero == 2){\r\n    jini = 6; jfim = 9;\r\n  }\r\n  else if(numero == 3){\r\n    jini = 9; jfim = 12;\r\n  }\r\n\r\n  for(int i=0;i<=9;i++){\r\n    if(tenta(i, jini, jfim)){\r\n      res = i;\r\n      break;\r\n    }\r\n  }\r\n\r\n  if(numero == 0) n1 = res;\r\n  else if(numero == 1) n2 = res;\r\n  else if(numero == 2) n3 = res;\r\n  else if(numero == 3) n4 = res;\r\n}\r\n\r\n\r\nint main(){\r\n\r\n  for(int i=0;i<5;i++){\r\n    for(int j=0;j<12;j++){\r\n      scanf(\" %c \", &aux[i][j]);\r\n      if(aux[i][j] == '#') m[i][j] = 1;\r\n      else if(aux[i][j] == '.') m[i][j] = 0;\r\n    }\r\n  }\r\n  for(int i=0;i<4;i++){\r\n    processa(i);\r\n  }\r\n  printf(\"%d%d:%d%d\\n\", n1, n2, n3, n4);\r\n  return 0;\r\n}\r\n", "nick"=>"RS", "authenticity_token"=>"Z4HLEebxd4m/QiT9Fv8JUl787gLPoTa5+v4EXOtLCAk=", "problem_code"=>"clock", "problem_source"=>"COCI 2001 Regional - Juniors"}
+Redirected to http://192.168.0.100:3000/status/20091116174251.RS
+Completed in 2007ms (DB: 0) | 302 Found [http://192.168.0.100/problems/submited]
+
+
+Processing ProblemController#status (for 192.168.0.200 at 2009-11-16 17:42:53) [GET]
+  Parameters: {"nick"=>"RS", "date"=>"20091116174251"}
+Completed in 261ms (View: 1, DB: 0) | 200 OK [http://192.168.0.100/status/20091116174251.RS]
+
+
+Processing ProblemController#submit (for 192.168.0.101 at 2009-11-16 18:00:38) [GET]
+  Parameters: {"problem_code"=>"icons", "problem_source"=>"COCI 2001 Regional - Juniors"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://192.168.0.100/problems/submit?problem_code=icons&problem_source=COCI+2001+Regional+-+Juniors]
+
+
+Processing ProblemController#index (for 192.168.0.200 at 2009-11-16 18:02:05) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 51ms (View: 46, DB: 0) | 200 OK [http://192.168.0.100/problems]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-17 10:52:19) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 641ms (View: 560, DB: 0) | 200 OK [http://localhost/problems]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-17 11:18:01) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 597ms (View: 500, DB: 0) | 200 OK [http://localhost/problems]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-17 11:38:03) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 122ms (View: 74, DB: 0) | 200 OK [http://localhost/problems]
+
+
+Processing ProblemController#index (for ::1 at 2009-11-17 11:59:33) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 171ms (View: 163, DB: 0) | 200 OK [http://localhost/problems]
