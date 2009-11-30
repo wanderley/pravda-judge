@@ -1,4 +1,7 @@
 ActionController::Routing::Routes.draw do |map|
+
+  map.root :controller => 'problem', :action => 'index'
+
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:
@@ -43,5 +46,5 @@ ActionController::Routing::Routes.draw do |map|
   map.connect 'problems/submited', :controller => 'problem', :action => 'submited'
   map.connect 'status/:date.:nick', :controller => 'problem', :action => 'status'
   map.connect ':controller/:action/:id'
-  map.connect ':controller/:action/:id.:format'
+  map.connect ':controller/:action/:id.:format'  
 end
