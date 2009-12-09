@@ -1,4 +1,7 @@
+.DS_Store
 *.swp
+*.swo
+lib/judge/safeexec
 db/problems/*
 db/wait_subs/*
 db/problems

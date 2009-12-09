@@ -15,7 +15,5 @@ while true
     end
     FileUtils.rm(sub)
   end
-  puts FileUtils.pwd
-
   sleep(10)
 end

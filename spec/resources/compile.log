@@ -1,0 +1,5 @@
+STDOUT:
+
+STDERR:
+./spec/lib/../resources/compile_error.cpp: In function ‘int main()’:
+./spec/lib/../resources/compile_error.cpp:2: error: expected `}' at end of input
