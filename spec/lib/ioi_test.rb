@@ -15,28 +15,54 @@ describe 'IOI Judge' do
 
     describe 'C++ submission' do
       it 'get accepted' do
-        IOI.judge(@problem_path, 'subs/ac.cpp').should eql(Submission::ANS_ACCEPTED)
+        IOI.judge(@problem_path, 'subs/ac/ac.cpp').should eql(Submission::ANS_ACCEPTED)
       end
 
       it 'get wrong answer' do
-        IOI.judge(@problem_path, 'subs/wa.cpp').should eql(Submission::ANS_WRONG)
+        IOI.judge(@problem_path, 'subs/wa/wa.cpp').should eql(Submission::ANS_WRONG)
       end
 
       it 'get time limit' do
-        IOI.judge(@problem_path, 'subs/tl.cpp').should eql(Submission::ANS_TIME_LIMIT)
+        IOI.judge(@problem_path, 'subs/tl/tl.cpp').should eql(Submission::ANS_TIME_LIMIT)
       end
 
       it 'get runtime error' do
-        IOI.judge(@problem_path, 'subs/re.cpp').should eql(Submission::ANS_RUNTIME_ERROR)
+        IOI.judge(@problem_path, 'subs/re/re.cpp').should eql(Submission::ANS_RUNTIME_ERROR)
       end
 
       it 'get memory limit exceded' do
         pending
-        IOI.judge(@problem_path, 'subs/ml.cpp').should eql(Submission::ANS_MEMORY_LIMIT)
+        IOI.judge(@problem_path, 'subs/ml/ml.cpp').should eql(Submission::ANS_MEMORY_LIMIT)
       end
 
       it 'get compile error' do
-        IOI.judge(@problem_path, 'subs/ce.cpp').should eql(Submission::ANS_COMPILE_ERROR)
+        IOI.judge(@problem_path, 'subs/ce/ce.cpp').should eql(Submission::ANS_COMPILE_ERROR)
+      end
+    end
+
+    describe 'Java submission' do
+      it 'get accepted' do
+        IOI.judge(@problem_path, 'subs/ac/Main.java').should eql(Submission::ANS_ACCEPTED)
+      end
+      
+      it 'get wrong answer' do
+        IOI.judge(@problem_path, 'subs/wa/Main.java').should eql(Submission::ANS_WRONG)
+      end
+  
+      it 'get time limit' do
+        IOI.judge(@problem_path, 'subs/tl/Main.java').should eql(Submission::ANS_TIME_LIMIT)
+      end
+
+      it 'get runtime error' do
+        IOI.judge(@problem_path, 'subs/re/Main.java').should eql(Submission::ANS_RUNTIME_ERROR)
+      end
+
+      it 'get memory limit exceded' do
+        pending
+      end
+
+      it 'get compile error' do
+        IOI.judge(@problem_path, 'subs/ce/Main.java').should eql(Submission::ANS_COMPILE_ERROR)
       end
     end
   end

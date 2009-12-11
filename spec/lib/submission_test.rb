@@ -6,13 +6,13 @@ end
 
 describe 'Submission class' do
   it 'should compile C++ accepted file' do
-    submission = get_submission('ac.cpp')
+    submission = get_submission('ac/ac.cpp')
     submission.compile!.should be_true
     submission.clear!
   end
 
   it 'should not compile C++ compile_error file' do
-    submission = get_submission('ce.cpp')
+    submission = get_submission('ce/ce.cpp')
     submission.compile!.should be_false
     submission.clear!
   end

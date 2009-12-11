@@ -18,7 +18,7 @@ module IOI
 
       total_cases    = 0
       accepted_cases = 0
-      exit_code      = 0
+      exit_code      = Submission::ANS_ACCEPTED
       better_time    = 999999
       worst_time     = -1
       wrong_cases    = 0
@@ -35,9 +35,9 @@ module IOI
 
         if status == Submission::ANS_ACCEPTED
           if $special_judge
-            status = exec_command("#{$special_judge} 3< #{test[:in]} 4< stdout 5< #{test[:out]}")
+            status = exec_command("#{$special_judge} 3< #{test[:in]} 4< stdout 5< #{test[:out]}").exitstatus
           elsif
-            status = exec_command("diff -B -b stdout #{test[:out]}")
+            status = exec_command("diff -B -b stdout #{test[:out]}").exitstatus
           end
           unless status == Submission::ANS_ACCEPTED
             status = Submission::ANS_WRONG
@@ -45,13 +45,8 @@ module IOI
         end
 
         Log.test(total_cases, status, test[:in], test[:out], 'stdout')
-        if status == Submission::ANS_ACCEPTED
-          accepted_cases += 1
-        else
-          wrong_cases += 1
-          exit_code = status
-          break
-        end
+        accepted_cases += 1 if status == Submission::ANS_ACCEPTED
+        exit_code = status if exit_code == Submission::ANS_ACCEPTED
       end
 
       Log.resume(accepted_cases, $points_per_test, better_time, worst_time)

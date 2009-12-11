@@ -18,7 +18,12 @@ class Submission
 
   def execute!(input_file_path, time=1, output_path=nil)
     output_path = '.' if output_path == nil
-    status = exec_command("safeexec -F10 -t#{time} -n0 -R. ./#{@exec_file} < #{input_file_path} > #{output_path}/stdout")
+    if @type == :java
+      java = `which java`.chomp
+      status = exec_command("safeexec -F10 -t#{(time * 1.5).ceil} -n0 #{java} #{@exec_file} < #{input_file_path} > #{output_path}/stdout")
+    else
+      status = exec_command("safeexec -F10 -t#{time} -n0 -R. ./#{@exec_file} < #{input_file_path} > #{output_path}/stdout")
+    end
     @exit_status = case status.exitstatus
                    when UNLIMIT_TIME_LIMIT
                      ANS_TIME_LIMIT
@@ -32,7 +37,7 @@ class Submission
   end
 
   def clear!
-    exec_command("rm #{@exec_file} *.o *.s stdout compile.log")
+    exec_command("rm #{@exec_file} *.o *.s stdout compile.log *.class")
   end
 
   def compile!
@@ -43,12 +48,8 @@ class Submission
 
     exec = lambda { |command| 
       status = exec_command(command) { |pid, stdin, stdout, stderr|
-        if !stdout.eof? || !stderr.eof?
-          puts 'STDOUT:'
-          puts stdout.readlines
-          puts 'STDERR:'
-          puts stderr.readlines
-        end
+          puts('STDOUT:', stdout.readlines) unless stdout.eof?
+          puts('STDERR:', stderr.readlines) unless stderr.eof?
       }
       if status.exitstatus != 0
         @exit_status = ANS_COMPILE_ERROR
@@ -60,11 +61,24 @@ class Submission
 
     case @file_path
     when /.*\.c$/
+      @type = :c
       exec.call("gcc #{@file_path} -o #{@exec_file} -O2 -Wall -O3 -lm")
     when /.*\.cpp$/
+      @type = :cpp
       exec.call("g++ #{@file_path} -o #{@exec_file} -O2 -Wall -O3 -lm")
     when /.*\.pas$/
+      @type = :pas
       exec.call("fpc #{@file_path} -o./#{@exec_file} -a -O2")
+    when /.*\.java$/
+      @type = :java
+      @exec_file = File.basename(@file_path, '.java')
+      if @exec_file!= 'Main'
+        @exit_status = ANS_COMPILE_ERROR
+        puts 'STDERR:',  'O arquivo fonte e a classe devem se chamar Main.java e Main, respectivamente.', File.basename(@file_path, 'java')
+        false
+      else
+        exec.call("javac -d . #{@file_path}")
+      end
     else
       @exit_status = ANS_COMPILE_ERROR
       false
