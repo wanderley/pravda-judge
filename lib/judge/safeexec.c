@@ -265,7 +265,7 @@ int main(int argc, char **argv) {
 	setrlimit(RLIMIT_RSS, &max_rss) ||
 	setrlimit(RLIMIT_FSIZE, &max_fsize) ||
 	setrlimit(RLIMIT_NOFILE, &max_nofile) ||
-	setrlimit(RLIMIT_NPROC, &max_processes) */) {
+	setrlimit(RLIMIT_NPROC, &max_processes)*/) {
       fprintf(stderr,"%s\n",strerror(errno));
       fprintf(stderr, "%s: can't set hard limits\n", argv[0]);
       exit(6);

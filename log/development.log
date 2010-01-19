@@ -3739,3 +3739,216 @@ Processing ProblemController#index (for 127.0.0.1 at 2009-11-30 16:02:49) [GET]
 Rendering template within layouts/application
 Rendering problem/index
 Completed in 214ms (View: 209, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProblemController#index (for 127.0.0.1 at 2009-12-11 09:37:15) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 207ms (View: 177, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProblemController#submit (for 127.0.0.1 at 2009-12-11 09:37:18) [GET]
+  Parameters: {"problem_code"=>"points", "problem_source"=>"Balkan Olympiad in Informatics 2007 - Day 1"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 30ms (View: 28, DB: 0) | 200 OK [http://localhost/problems/submit?problem_code=points&problem_source=Balkan+Olympiad+in+Informatics+2007+-+Day+1]
+
+
+Processing ProblemController#submited (for 127.0.0.1 at 2009-12-11 09:37:35) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"int main () { return 0; }", "nick"=>"wanderley", "authenticity_token"=>"eyBgN2KGI7NSt4MtNhHE1ZhbqMzHml8YFSe/f9OGULw=", "problem_code"=>"points", "problem_source"=>"Balkan Olympiad in Informatics 2007 - Day 1"}
+Redirected to http://localhost:3000/status/20091211093735.wanderley
+Completed in 2202ms (DB: 0) | 302 Found [http://localhost/problems/submited]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2009-12-11 09:37:37) [GET]
+  Parameters: {"nick"=>"wanderley", "date"=>"20091211093735"}
+Completed in 2771ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091211093735.wanderley]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2009-12-11 09:37:41) [GET]
+  Parameters: {"nick"=>"wanderley", "date"=>"20091211093735"}
+Completed in 249ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091211093735.wanderley]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2009-12-11 09:37:45) [GET]
+  Parameters: {"nick"=>"wanderley", "date"=>"20091211093735"}
+Completed in 257ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091211093735.wanderley]
+
+
+Processing ProblemController#submit (for 127.0.0.1 at 2009-12-11 09:38:01) [GET]
+  Parameters: {"problem_code"=>"points", "problem_source"=>"Balkan Olympiad in Informatics 2007 - Day 1"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/problems/submit?problem_code=points&problem_source=Balkan+Olympiad+in+Informatics+2007+-+Day+1]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2009-12-11 09:42:05) [GET]
+  Parameters: {"nick"=>"wanderley", "date"=>"20091211093735"}
+Completed in 251ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091211093735.wanderley]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2009-12-11 09:42:06) [GET]
+  Parameters: {"nick"=>"wanderley", "date"=>"20091211093735"}
+Completed in 255ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091211093735.wanderley]
+
+
+Processing ProblemController#submit (for 127.0.0.1 at 2009-12-11 09:44:43) [GET]
+  Parameters: {"problem_code"=>"points", "problem_source"=>"Balkan Olympiad in Informatics 2007 - Day 1"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/problems/submit?problem_code=points&problem_source=Balkan+Olympiad+in+Informatics+2007+-+Day+1]
+
+
+Processing ProblemController#index (for 127.0.0.1 at 2009-12-11 09:44:51) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 119ms (View: 114, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProblemController#submit (for 127.0.0.1 at 2009-12-11 09:44:55) [GET]
+  Parameters: {"problem_code"=>"song", "problem_source"=>"Croatian Highschool Competitions in Informatics 2002 - Regional - Junior"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/problems/submit?problem_code=song&problem_source=Croatian+Highschool+Competitions+in+Informatics+2002+-+Regional+-+Junior]
+
+
+Processing ProblemController#submited (for 127.0.0.1 at 2009-12-11 09:45:02) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"#include <stdio.h>\r\n#include <string.h>\r\n\r\nchar vers[4][65], vog[5] = {'a','e', 'i', 'o', 'u'};\r\nint rhy[5][4];\r\n\r\nvoid zera(int k){\r\n  int i;\r\n  for (i = 0; i < 65; i++){\r\n      vers[k][i] = '\\0';\r\n    }\r\n}\r\n\r\nint com(char c){\r\n  int i;\r\n  for (i = 0; i < 5; i++){\r\n    if (c == vog[i])\r\n      return 1;\r\n  }\r\n  return 0;\r\n}\r\n\r\nvoid rhyme(int x){\r\n  // printf (\"%s\", vers[x]);\r\n  int i, j, k = 1;\r\n  for (i = 0; i < 4; i++)\r\n    rhy[x][i] = 0;\r\n  for (i = 0; i < 4; i++){\r\n    for (j = 0; j < 4; j++){\r\n      if (strcmp(vers[i], vers[j]) == 0){\r\n\trhy[x][j] = rhy[x][i];\r\n\t//\tprintf (\"fdfs\\n\");\r\n      }\r\n      else {\r\n\trhy[x][j] += k;//= rhy[x][i] + k;\r\n      }\r\n    }\r\n    k = k * 2;\r\n  }\r\n}\r\n\r\nint main () {\r\n  int n, i, j, k, d = 0;\r\n  char c, a;\r\n  scanf (\"%d\", &n);\r\n  scanf (\"%c\", &a);\r\n  for (j = 0; j < n; j++){\r\n    for (k = 0; k < 4; k++){   \r\n      i = 0;\r\n      while (scanf (\"%c\", &c) != 0 && c != '\\n'){\r\n\tif (c == ' ' || com(c) == 1){\r\n\t  zera(k);\r\n\t  i = 0;\r\n\t}\r\n\tif (c >= 'A' && c <= 'Z')\r\n\t  c += 'a';\r\n\tvers[k][i] = c;\r\n\ti++;\r\n      }\r\n    }\r\n    //printf (\"%s\\n\", vers[k]);\r\n    rhyme(j);\r\n  }\r\n  for (i = 0; i < n; i++){\r\n    d = 0;\r\n    if ((rhy[i][0] == rhy[i][1] && rhy[i][2] == rhy[i][3]) && (rhy[i][0] != rhy[i][2])){\r\n      printf (\"even\\n\");\r\n      d = 1;\r\n    }\r\n    if (rhy[i][0] == rhy[i][2] && rhy[i][1] == rhy[i][3] && rhy[i][0] != rhy[i][1]){\r\n      printf (\"cross\\n\");\r\n      d = 1;\r\n    }\r\n    if (rhy[i][0] == rhy[i][3] && rhy[i][1] == rhy[i][2] && rhy[i][0] != rhy[i][1]){\r\n      printf(\"shell\\n\");\r\n      d = 1;    \r\n    }    \r\n    if (rhy[i][0] == rhy[i][2] && rhy[i][1] == rhy[i][3] && rhy[i][0] == rhy[i][1]) {\r\n      printf (\"perfect\\n\");\r\n      d = 1;    \r\n    }    \r\n    if (rhy[i][0] != rhy[i][1] && rhy[i][0] != rhy[i][2] && rhy[i][0] != rhy[i][3]) {\r\n      printf(\"free\\n\");\r\n      d = 1;\r\n    }\r\n    else if (d == 0)\r\n      printf (\"free\\n\");\r\n  }\r\n  for (i = 0; i < 4; i++){\r\n    // printf (\"%d\\n\", rhy[0][i]);\r\n     // printf (\"%s\", vers[i]);\r\n  }\r\n  return 0;\r\n}\r\n", "nick"=>"teste", "authenticity_token"=>"eyBgN2KGI7NSt4MtNhHE1ZhbqMzHml8YFSe/f9OGULw=", "problem_code"=>"song", "problem_source"=>"Croatian Highschool Competitions in Informatics 2002 - Regional - Junior"}
+Redirected to http://localhost:3000/status/20091211094502.teste
+Completed in 2007ms (DB: 0) | 302 Found [http://localhost/problems/submited]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2009-12-11 09:45:04) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20091211094502"}
+Completed in 844ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091211094502.teste]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2009-12-11 09:45:06) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20091211094502"}
+Completed in 261ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091211094502.teste]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2009-12-11 09:45:08) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20091211094502"}
+Completed in 399ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091211094502.teste]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2009-12-11 09:45:57) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20091211094502"}
+Completed in 276ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091211094502.teste]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2009-12-11 09:46:17) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20091211094502"}
+Completed in 274ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091211094502.teste]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2009-12-11 10:06:45) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20091211094502"}
+Completed in 289ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091211094502.teste]
+
+
+Processing ProblemController#submit (for 127.0.0.1 at 2009-12-11 10:06:50) [GET]
+  Parameters: {"problem_code"=>"song", "problem_source"=>"Croatian Highschool Competitions in Informatics 2002 - Regional - Junior"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/problems/submit?problem_code=song&problem_source=Croatian+Highschool+Competitions+in+Informatics+2002+-+Regional+-+Junior]
+
+
+Processing ProblemController#submited (for 127.0.0.1 at 2009-12-11 10:06:53) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"#include <stdio.h>\r\n#include <string.h>\r\n\r\nchar vers[4][65], vog[5] = {'a','e', 'i', 'o', 'u'};\r\nint rhy[5][4];\r\n\r\nvoid zera(int k){\r\n  int i;\r\n  for (i = 0; i < 65; i++){\r\n      vers[k][i] = '\\0';\r\n    }\r\n}\r\n\r\nint com(char c){\r\n  int i;\r\n  for (i = 0; i < 5; i++){\r\n    if (c == vog[i])\r\n      return 1;\r\n  }\r\n  return 0;\r\n}\r\n\r\nvoid rhyme(int x){\r\n  // printf (\"%s\", vers[x]);\r\n  int i, j, k = 1;\r\n  for (i = 0; i < 4; i++)\r\n    rhy[x][i] = 0;\r\n  for (i = 0; i < 4; i++){\r\n    for (j = 0; j < 4; j++){\r\n      if (strcmp(vers[i], vers[j]) == 0){\r\n\trhy[x][j] = rhy[x][i];\r\n\t//\tprintf (\"fdfs\\n\");\r\n      }\r\n      else {\r\n\trhy[x][j] += k;//= rhy[x][i] + k;\r\n      }\r\n    }\r\n    k = k * 2;\r\n  }\r\n}\r\n\r\nint main () {\r\n  int n, i, j, k, d = 0;\r\n  char c, a;\r\n  scanf (\"%d\", &n);\r\n  scanf (\"%c\", &a);\r\n  for (j = 0; j < n; j++){\r\n    for (k = 0; k < 4; k++){   \r\n      i = 0;\r\n      while (scanf (\"%c\", &c) != 0 && c != '\\n'){\r\n\tif (c == ' ' || com(c) == 1){\r\n\t  zera(k);\r\n\t  i = 0;\r\n\t}\r\n\tif (c >= 'A' && c <= 'Z')\r\n\t  c += 'a';\r\n\tvers[k][i] = c;\r\n\ti++;\r\n      }\r\n    }\r\n    //printf (\"%s\\n\", vers[k]);\r\n    rhyme(j);\r\n  }\r\n  for (i = 0; i < n; i++){\r\n    d = 0;\r\n    if ((rhy[i][0] == rhy[i][1] && rhy[i][2] == rhy[i][3]) && (rhy[i][0] != rhy[i][2])){\r\n      printf (\"even\\n\");\r\n      d = 1;\r\n    }\r\n    if (rhy[i][0] == rhy[i][2] && rhy[i][1] == rhy[i][3] && rhy[i][0] != rhy[i][1]){\r\n      printf (\"cross\\n\");\r\n      d = 1;\r\n    }\r\n    if (rhy[i][0] == rhy[i][3] && rhy[i][1] == rhy[i][2] && rhy[i][0] != rhy[i][1]){\r\n      printf(\"shell\\n\");\r\n      d = 1;    \r\n    }    \r\n    if (rhy[i][0] == rhy[i][2] && rhy[i][1] == rhy[i][3] && rhy[i][0] == rhy[i][1]) {\r\n      printf (\"perfect\\n\");\r\n      d = 1;    \r\n    }    \r\n    if (rhy[i][0] != rhy[i][1] && rhy[i][0] != rhy[i][2] && rhy[i][0] != rhy[i][3]) {\r\n      printf(\"free\\n\");\r\n      d = 1;\r\n    }\r\n    else if (d == 0)\r\n      printf (\"free\\n\");\r\n  }\r\n  for (i = 0; i < 4; i++){\r\n    // printf (\"%d\\n\", rhy[0][i]);\r\n     // printf (\"%s\", vers[i]);\r\n  }\r\n  return 0;\r\n}\r\n", "nick"=>"teste", "authenticity_token"=>"eyBgN2KGI7NSt4MtNhHE1ZhbqMzHml8YFSe/f9OGULw=", "problem_code"=>"song", "problem_source"=>"Croatian Highschool Competitions in Informatics 2002 - Regional - Junior"}
+Redirected to http://localhost:3000/status/20091211100653.teste
+Completed in 2007ms (DB: 0) | 302 Found [http://localhost/problems/submited]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2009-12-11 10:06:56) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20091211100653"}
+Completed in 256ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091211100653.teste]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2009-12-11 10:06:57) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20091211100653"}
+Completed in 259ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091211100653.teste]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2009-12-11 10:07:31) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20091211100653"}
+Completed in 1452ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091211100653.teste]
+
+
+Processing ProblemController#submit (for 127.0.0.1 at 2009-12-11 10:07:59) [GET]
+  Parameters: {"problem_code"=>"song", "problem_source"=>"Croatian Highschool Competitions in Informatics 2002 - Regional - Junior"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/problems/submit?problem_code=song&problem_source=Croatian+Highschool+Competitions+in+Informatics+2002+-+Regional+-+Junior]
+
+
+Processing ProblemController#index (for 127.0.0.1 at 2009-12-11 14:39:21) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 133ms (View: 119, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProblemController#submit (for 127.0.0.1 at 2009-12-11 14:39:24) [GET]
+  Parameters: {"problem_code"=>"song", "problem_source"=>"Croatian Highschool Competitions in Informatics 2002 - Regional - Junior"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/problems/submit?problem_code=song&problem_source=Croatian+Highschool+Competitions+in+Informatics+2002+-+Regional+-+Junior]
+
+
+Processing ProblemController#submited (for 127.0.0.1 at 2009-12-11 14:39:30) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"#include <stdio.h>\r\n#include <string.h>\r\n\r\nchar vers[4][65], vog[5] = {'a','e', 'i', 'o', 'u'};\r\nint rhy[5][4];\r\n\r\nvoid zera(int k){\r\n  int i;\r\n  for (i = 0; i < 65; i++){\r\n      vers[k][i] = '\\0';\r\n    }\r\n}\r\n\r\nint com(char c){\r\n  int i;\r\n  for (i = 0; i < 5; i++){\r\n    if (c == vog[i])\r\n      return 1;\r\n  }\r\n  return 0;\r\n}\r\n\r\nvoid rhyme(int x){\r\n  // printf (\"%s\", vers[x]);\r\n  int i, j, k = 1;\r\n  for (i = 0; i < 4; i++)\r\n    rhy[x][i] = 0;\r\n  for (i = 0; i < 4; i++){\r\n    for (j = 0; j < 4; j++){\r\n      if (strcmp(vers[i], vers[j]) == 0){\r\n\trhy[x][j] = rhy[x][i];\r\n\t//\tprintf (\"fdfs\\n\");\r\n      }\r\n      else {\r\n\trhy[x][j] += k;//= rhy[x][i] + k;\r\n      }\r\n    }\r\n    k = k * 2;\r\n  }\r\n}\r\n\r\nint main () {\r\n  int n, i, j, k, d = 0;\r\n  char c, a;\r\n  scanf (\"%d\", &n);\r\n  scanf (\"%c\", &a);\r\n  for (j = 0; j < n; j++){\r\n    for (k = 0; k < 4; k++){   \r\n      i = 0;\r\n      while (scanf (\"%c\", &c) != 0 && c != '\\n'){\r\n\tif (c == ' ' || com(c) == 1){\r\n\t  zera(k);\r\n\t  i = 0;\r\n\t}\r\n\tif (c >= 'A' && c <= 'Z')\r\n\t  c += 'a';\r\n\tvers[k][i] = c;\r\n\ti++;\r\n      }\r\n    }\r\n    //printf (\"%s\\n\", vers[k]);\r\n    rhyme(j);\r\n  }\r\n  for (i = 0; i < n; i++){\r\n    d = 0;\r\n    if ((rhy[i][0] == rhy[i][1] && rhy[i][2] == rhy[i][3]) && (rhy[i][0] != rhy[i][2])){\r\n      printf (\"even\\n\");\r\n      d = 1;\r\n    }\r\n    if (rhy[i][0] == rhy[i][2] && rhy[i][1] == rhy[i][3] && rhy[i][0] != rhy[i][1]){\r\n      printf (\"cross\\n\");\r\n      d = 1;\r\n    }\r\n    if (rhy[i][0] == rhy[i][3] && rhy[i][1] == rhy[i][2] && rhy[i][0] != rhy[i][1]){\r\n      printf(\"shell\\n\");\r\n      d = 1;    \r\n    }    \r\n    if (rhy[i][0] == rhy[i][2] && rhy[i][1] == rhy[i][3] && rhy[i][0] == rhy[i][1]) {\r\n      printf (\"perfect\\n\");\r\n      d = 1;    \r\n    }    \r\n    if (rhy[i][0] != rhy[i][1] && rhy[i][0] != rhy[i][2] && rhy[i][0] != rhy[i][3]) {\r\n      printf(\"free\\n\");\r\n      d = 1;\r\n    }\r\n    else if (d == 0)\r\n      printf (\"free\\n\");\r\n  }\r\n  for (i = 0; i < 4; i++){\r\n    // printf (\"%d\\n\", rhy[0][i]);\r\n     // printf (\"%s\", vers[i]);\r\n  }\r\n  return 0;\r\n}\r\n", "nick"=>"teste", "authenticity_token"=>"eyBgN2KGI7NSt4MtNhHE1ZhbqMzHml8YFSe/f9OGULw=", "problem_code"=>"song", "problem_source"=>"Croatian Highschool Competitions in Informatics 2002 - Regional - Junior"}
+Redirected to http://localhost:3000/status/20091211143930.teste
+Completed in 2058ms (DB: 0) | 302 Found [http://localhost/problems/submited]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2009-12-11 14:39:32) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20091211143930"}
+Completed in 2804ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091211143930.teste]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2009-12-11 14:39:37) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20091211143930"}
+Completed in 262ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091211143930.teste]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2009-12-11 14:39:39) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20091211143930"}
+Completed in 258ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091211143930.teste]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2009-12-11 14:39:41) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20091211143930"}
+Completed in 265ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091211143930.teste]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2009-12-11 14:39:42) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20091211143930"}
+Completed in 259ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091211143930.teste]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2009-12-11 14:39:43) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20091211143930"}
+Completed in 260ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091211143930.teste]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2009-12-11 14:39:44) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20091211143930"}
+Completed in 251ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091211143930.teste]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2009-12-11 14:39:45) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20091211143930"}
+Completed in 260ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20091211143930.teste]
+
+
+Processing ProblemController#index (for 127.0.0.1 at 2009-12-14 09:40:30) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 1034ms (View: 919, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProblemController#index (for 127.0.0.1 at 2009-12-14 09:40:35) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 1588ms (View: 1557, DB: 0) | 200 OK [http://localhost/]

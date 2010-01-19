@@ -20,9 +20,9 @@ class Submission
     output_path = '.' if output_path == nil
     if @type == :java
       java = `which java`.chomp
-      status = exec_command("safeexec -F10 -t#{(time * 1.5).ceil} -n0 #{java} #{@exec_file} < #{input_file_path} > #{output_path}/stdout")
+      status = exec_command("safeexec -F10 -t#{(time * 1.5).ceil} -T#{(time * 1.5 * 4).ceil} -n0 #{java} #{@exec_file} < #{input_file_path} > #{output_path}/stdout 2> /dev/null")
     else
-      status = exec_command("safeexec -F10 -t#{time} -n0 -R. ./#{@exec_file} < #{input_file_path} > #{output_path}/stdout")
+      status = exec_command("safeexec -F10 -t#{time} -T#{time * 4} -n0 -R. ./#{@exec_file} < #{input_file_path} > #{output_path}/stdout 2> /dev/null")
     end
     @exit_status = case status.exitstatus
                    when UNLIMIT_TIME_LIMIT
@@ -48,7 +48,7 @@ class Submission
 
     exec = lambda { |command| 
       status = exec_command(command) { |pid, stdin, stdout, stderr|
-          puts('STDOUT:', stdout.readlines) unless stdout.eof?
+          #puts('STDOUT:', stdout.readlines) raise nil unless stdout.eof?
           puts('STDERR:', stderr.readlines) unless stderr.eof?
       }
       if status.exitstatus != 0

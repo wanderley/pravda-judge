@@ -32,7 +32,7 @@ module Log
   end
   
   def self.test(test_case, exitstatus, input, expected_output, output)
-    printf "  Teste %3d: ", test_case
+    printf "  Teste %3d:", test_case
     case exitstatus
     when Submission::ANS_TIME_LIMIT
       puts "Limite de tempo excedido!"
