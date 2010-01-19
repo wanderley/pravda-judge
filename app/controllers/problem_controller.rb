@@ -57,7 +57,7 @@ class ProblemController < ApplicationController
 
     # Wait to change id of submition :P
     sleep(2)
-    redirect_to '/judge/status/' + name
+    redirect_to 'status/' + name
   end
 
 
