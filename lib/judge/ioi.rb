@@ -50,7 +50,7 @@ module IOI
           end
         end
 
-        Log.test(total_cases, status, test[:in], test[:out], 'stdout') if exit_code == Submission::ANS_ACCEPTED
+        Log.test(total_cases, status, test[:in], test[:out], 'stdout')
         accepted_cases += 1 if status == Submission::ANS_ACCEPTED
         exit_code = status if exit_code == Submission::ANS_ACCEPTED
       end

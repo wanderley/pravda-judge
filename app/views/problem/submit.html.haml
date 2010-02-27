@@ -21,7 +21,8 @@
       %tr
         %td
           %b Language
-        %td C++ (only)
+        %td
+          = select_tag 'language', options_for_select([['C','C'], ['C++','C++'], ['Java','Java']])
     %tbody
       %tr
         %td{ :valign => :top }
@@ -30,8 +31,6 @@
       %tr
         %td
         %td
-          = hidden_field_tag 'problem_code', @problem_code
-          = hidden_field_tag 'problem_source', @problem_source
           = hidden_field_tag 'problem_path', @problem_path
           = submit_tag 'Send'
           = submit_tag 'Clear', :type => :reset

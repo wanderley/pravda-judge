@@ -10,7 +10,11 @@ while true
     end
     puts 'Processing ' + sub
     FileUtils.cd(sub + '/../../') do
-      `#{IOI_JUDGE} #{path}/sol.cpp > #{path}/status 2> /dev/null; echo $? > #{path}/exitstatus`
+      filename = 'sol.cpp'
+      ['sol.c', 'Main.java'].each do |i|
+        filename = i if File.exist?("#{path}/#{i}")
+      end
+      `#{IOI_JUDGE} #{path}/#{filename} > #{path}/status 2> /dev/null; echo $? > #{path}/exitstatus`
     end
     FileUtils.cd(sub) do
       FileUtils.rm('WAIT')
