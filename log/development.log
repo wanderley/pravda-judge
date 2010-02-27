@@ -3952,3 +3952,16 @@ Processing ProblemController#index (for 127.0.0.1 at 2009-12-14 09:40:35) [GET]
 Rendering template within layouts/application
 Rendering problem/index
 Completed in 1588ms (View: 1557, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProblemController#index (for 127.0.0.1 at 2010-02-26 20:24:59) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 198ms (View: 167, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProblemController#submit (for 127.0.0.1 at 2010-02-26 20:25:25) [GET]
+  Parameters: {"problem_code"=>"cavalos", "problem_source"=>"Olimpiada Brasileira de Informatica 2008 - Fase 2 - Nível 1"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 813ms (View: 810, DB: 0) | 200 OK [http://localhost/problems/submit?problem_code=cavalos&problem_source=Olimpiada+Brasileira+de+Informatica+2008+-+Fase+2+-+N%C3%ADvel+1]

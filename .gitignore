@@ -6,4 +6,5 @@ db/problems/*
 db/wait_subs/*
 db/problems
 db/wait_subs
+db/*.sqlite3
 log/*
