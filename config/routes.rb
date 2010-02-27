@@ -45,6 +45,7 @@ ActionController::Routing::Routes.draw do |map|
   map.connect 'problems/submit', :controller => 'problem', :action => 'submit'
   map.connect 'problems/submited', :controller => 'problem', :action => 'submited'
   map.connect 'status/:date.:nick', :controller => 'problem', :action => 'status'
+  map.connect 'exitstatus/:date.:nick', :controller => 'problem', :action => 'exitstatus'
   map.connect ':controller/:action/:id'
   map.connect ':controller/:action/:id.:format'  
 end

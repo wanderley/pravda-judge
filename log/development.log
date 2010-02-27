@@ -3965,3 +3965,543 @@ Processing ProblemController#submit (for 127.0.0.1 at 2010-02-26 20:25:25) [GET]
 Rendering template within layouts/application
 Rendering problem/submit
 Completed in 813ms (View: 810, DB: 0) | 200 OK [http://localhost/problems/submit?problem_code=cavalos&problem_source=Olimpiada+Brasileira+de+Informatica+2008+-+Fase+2+-+N%C3%ADvel+1]
+
+
+Processing ProblemController#index (for 127.0.0.1 at 2010-02-26 21:39:35) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 135ms (View: 115, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-26 21:41:04) [GET]
+
+ActionController::RoutingError (No route matches "/status/teste/teste1" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-26 21:42:18) [GET]
+  Parameters: {"problem_code"=>"teste/teste1"}
+
+ActionController::RoutingError (No route matches "/status" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-26 21:42:25) [GET]
+  Parameters: {"problem_code"=>"teste/teste1"}
+
+ActionController::RoutingError (No route matches "/status/" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProblemController#submit (for 127.0.0.1 at 2010-02-26 21:47:33) [GET]
+  Parameters: {"problem_path"=>"db/problems/obi/2008/fase2-nive1/cavalos"}
+Redirected to http://localhost:3000/problems
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/problems/submit?problem_path=db%2Fproblems%2Fobi%2F2008%2Ffase2-nive1%2Fcavalos]
+
+
+Processing ProblemController#index (for 127.0.0.1 at 2010-02-26 21:47:33) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 118ms (View: 107, DB: 0) | 200 OK [http://localhost/problems]
+
+
+Processing ProblemController#submit (for 127.0.0.1 at 2010-02-26 21:47:36) [GET]
+  Parameters: {"problem_path"=>"db/problems/coci/2001/regional/seniors/palin"}
+Redirected to http://localhost:3000/problems
+Completed in 4ms (DB: 0) | 302 Found [http://localhost/problems/submit?problem_path=db%2Fproblems%2Fcoci%2F2001%2Fregional%2Fseniors%2Fpalin]
+
+
+Processing ProblemController#index (for 127.0.0.1 at 2010-02-26 21:47:36) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 125ms (View: 112, DB: 0) | 200 OK [http://localhost/problems]
+
+
+Processing ProblemController#submit (for 127.0.0.1 at 2010-02-26 21:47:38) [GET]
+  Parameters: {"problem_path"=>"db/problems/coci/2001/national/olympiad/paste"}
+Redirected to http://localhost:3000/problems
+Completed in 5ms (DB: 0) | 302 Found [http://localhost/problems/submit?problem_path=db%2Fproblems%2Fcoci%2F2001%2Fnational%2Folympiad%2Fpaste]
+
+
+Processing ProblemController#index (for 127.0.0.1 at 2010-02-26 21:47:38) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 127ms (View: 111, DB: 0) | 200 OK [http://localhost/problems]
+
+
+Processing ProblemController#index (for 127.0.0.1 at 2010-02-26 21:51:37) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 114ms (View: 103, DB: 0) | 200 OK [http://localhost/problems]
+
+
+Processing ProblemController#submit (for 127.0.0.1 at 2010-02-26 21:51:38) [GET]
+  Parameters: {"problem_path"=>"db/problems/coci/2001/national/olympiad/paste"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/problems/submit?problem_path=db%2Fproblems%2Fcoci%2F2001%2Fnational%2Folympiad%2Fpaste]
+
+
+Processing ProblemController#submit (for 127.0.0.1 at 2010-02-26 21:58:30) [GET]
+  Parameters: {"problem_path"=>"db/problems/boi/2007/day1/dream"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+  app/controllers/problem_controller.rb:97:in `refresh_variables'
+  app/controllers/problem_controller.rb:11:in `submit'
+  haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (180.4ms)
+Rendered rescues/_request_and_response (2.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemController#submit (for 127.0.0.1 at 2010-02-26 21:59:42) [GET]
+  Parameters: {"problem_path"=>"db/problems/boi/2007/day1/dream"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 16ms (View: 5, DB: 0) | 200 OK [http://localhost/problems/submit?problem_path=db%2Fproblems%2Fboi%2F2007%2Fday1%2Fdream]
+
+
+Processing ProblemController#submit (for 127.0.0.1 at 2010-02-26 22:00:06) [GET]
+  Parameters: {"problem_path"=>"db/problems/boi/2007/day1/dream"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 16ms (View: 5, DB: 0) | 200 OK [http://localhost/problems/submit?problem_path=db%2Fproblems%2Fboi%2F2007%2Fday1%2Fdream]
+
+
+Processing ProblemController#submit (for 127.0.0.1 at 2010-02-26 22:00:07) [GET]
+  Parameters: {"problem_path"=>"db/problems/boi/2007/day1/dream"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 16ms (View: 5, DB: 0) | 200 OK [http://localhost/problems/submit?problem_path=db%2Fproblems%2Fboi%2F2007%2Fday1%2Fdream]
+
+
+Processing ProblemController#submit (for 127.0.0.1 at 2010-02-26 22:00:09) [GET]
+  Parameters: {"problem_path"=>"db/problems/boi/2007/day1/dream"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 15ms (View: 4, DB: 0) | 200 OK [http://localhost/problems/submit?problem_path=db/problems/boi/2007/day1/dream]
+
+
+Processing ProblemController#submit (for 127.0.0.1 at 2010-02-26 22:00:15) [GET]
+  Parameters: {"problem_path"=>"db/problems/boi/2007/day2/mokia"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 16ms (View: 5, DB: 0) | 200 OK [http://localhost/problems/submit?problem_path=db%2Fproblems%2Fboi%2F2007%2Fday2%2Fmokia]
+
+
+Processing ProblemController#submit (for 127.0.0.1 at 2010-02-26 22:00:56) [GET]
+  Parameters: {"problem_path"=>"db/problems/boi/2007/day2/mokia"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 16ms (View: 5, DB: 0) | 200 OK [http://localhost/problems/submit?problem_path=db%2Fproblems%2Fboi%2F2007%2Fday2%2Fmokia]
+
+
+Processing ProblemController#submit (for 127.0.0.1 at 2010-02-26 22:00:57) [GET]
+  Parameters: {"problem_path"=>"db/problems/boi/2007/day2/mokia"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 16ms (View: 5, DB: 0) | 200 OK [http://localhost/problems/submit?problem_path=db%2Fproblems%2Fboi%2F2007%2Fday2%2Fmokia]
+
+
+Processing ProblemController#submit (for 127.0.0.1 at 2010-02-26 22:00:57) [GET]
+  Parameters: {"problem_path"=>"db/problems/boi/2007/day2/mokia"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 16ms (View: 5, DB: 0) | 200 OK [http://localhost/problems/submit?problem_path=db%2Fproblems%2Fboi%2F2007%2Fday2%2Fmokia]
+
+
+Processing ProblemController#submit (for 127.0.0.1 at 2010-02-26 22:00:57) [GET]
+  Parameters: {"problem_path"=>"db/problems/boi/2007/day2/mokia"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 20ms (View: 6, DB: 0) | 200 OK [http://localhost/problems/submit?problem_path=db%2Fproblems%2Fboi%2F2007%2Fday2%2Fmokia]
+
+
+Processing ProblemController#submit (for 127.0.0.1 at 2010-02-26 22:00:57) [GET]
+  Parameters: {"problem_path"=>"db/problems/boi/2007/day2/mokia"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 16ms (View: 5, DB: 0) | 200 OK [http://localhost/problems/submit?problem_path=db%2Fproblems%2Fboi%2F2007%2Fday2%2Fmokia]
+
+
+Processing ProblemController#submit (for 127.0.0.1 at 2010-02-26 22:01:34) [GET]
+  Parameters: {"problem_path"=>"db/problems/boi/2007/day2/mokia"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 16ms (View: 5, DB: 0) | 200 OK [http://localhost/problems/submit?problem_path=db%2Fproblems%2Fboi%2F2007%2Fday2%2Fmokia]
+
+
+Processing ProblemController#submit (for 127.0.0.1 at 2010-02-26 22:01:46) [GET]
+  Parameters: {"problem_path"=>"db/problems/boi/2007/day2/mokia"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 17ms (View: 5, DB: 0) | 200 OK [http://localhost/problems/submit?problem_path=db%2Fproblems%2Fboi%2F2007%2Fday2%2Fmokia]
+
+
+Processing ProblemController#submit (for 127.0.0.1 at 2010-02-26 22:01:47) [GET]
+  Parameters: {"problem_path"=>"db/problems/boi/2007/day2/mokia"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 19ms (View: 5, DB: 0) | 200 OK [http://localhost/problems/submit?problem_path=db%2Fproblems%2Fboi%2F2007%2Fday2%2Fmokia]
+
+
+Processing ProblemController#submit (for 127.0.0.1 at 2010-02-26 22:01:53) [GET]
+  Parameters: {"problem_path"=>"db/problems/boi/2007/day2/mokia"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 16ms (View: 5, DB: 0) | 200 OK [http://localhost/problems/submit?problem_path=db%2Fproblems%2Fboi%2F2007%2Fday2%2Fmokia]
+
+
+Processing ProblemController#submit (for 127.0.0.1 at 2010-02-26 22:03:21) [GET]
+  Parameters: {"problem_path"=>"db/problems/boi/2007/day2/mokia"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 16ms (View: 5, DB: 0) | 200 OK [http://localhost/problems/submit?problem_path=db%2Fproblems%2Fboi%2F2007%2Fday2%2Fmokia]
+
+
+Processing ProblemController#index (for 127.0.0.1 at 2010-02-26 22:04:24) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 227ms (View: 215, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ProblemController#index (for 127.0.0.1 at 2010-02-26 22:04:42) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 114ms (View: 103, DB: 0) | 200 OK [http://localhost/problems/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-26 22:05:07) [GET]
+
+ActionController::RoutingError (No route matches "/submit" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-26 22:05:12) [GET]
+
+ActionController::RoutingError (No route matches "/submit/" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProblemController#submit (for 127.0.0.1 at 2010-02-26 22:05:17) [GET]
+  Parameters: {"problem_path"=>"db/problems/coci/2001/national/olympiad/paste"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 16ms (View: 5, DB: 0) | 200 OK [http://localhost/problems/submit?problem_path=db%2Fproblems%2Fcoci%2F2001%2Fnational%2Folympiad%2Fpaste]
+
+
+Processing ProblemController#submit (for 127.0.0.1 at 2010-02-26 22:05:23) [GET]
+Redirected to http://localhost:3000/problems
+Completed in 11ms (DB: 0) | 302 Found [http://localhost/problems/submit]
+
+
+Processing ProblemController#index (for 127.0.0.1 at 2010-02-26 22:05:23) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 109ms (View: 99, DB: 0) | 200 OK [http://localhost/problems]
+
+
+Processing ProblemController#index (for 127.0.0.1 at 2010-02-26 22:10:42) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 116ms (View: 100, DB: 0) | 200 OK [http://localhost/problems]
+
+
+Processing ProblemController#index (for 127.0.0.1 at 2010-02-26 22:11:16) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 109ms (View: 92, DB: 0) | 200 OK [http://localhost/problems]
+
+
+Processing ProblemController#submit (for 127.0.0.1 at 2010-02-26 22:11:21) [GET]
+  Parameters: {"problem_path"=>"coci/2001/regional/seniors/palin"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 22ms (View: 5, DB: 0) | 200 OK [http://localhost/problems/submit?problem_path=coci%2F2001%2Fregional%2Fseniors%2Fpalin]
+
+
+Processing ProblemController#submit (for 127.0.0.1 at 2010-02-26 22:21:49) [GET]
+  Parameters: {"problem_path"=>"coci/2001/regional/seniors/palin"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 162ms (View: 19, DB: 0) | 200 OK [http://localhost/problems/submit?problem_path=coci%2F2001%2Fregional%2Fseniors%2Fpalin]
+
+
+Processing ProblemController#submit (for 127.0.0.1 at 2010-02-26 22:21:50) [GET]
+  Parameters: {"problem_path"=>"coci/2001/regional/seniors/palin"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 22ms (View: 5, DB: 0) | 200 OK [http://localhost/problems/submit?problem_path=coci%2F2001%2Fregional%2Fseniors%2Fpalin]
+
+
+Processing ProblemController#submited (for 127.0.0.1 at 2010-02-26 22:22:00) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"int main () { return 0; }", "nick"=>"teste", "authenticity_token"=>"2TeIpaLHJdfSYdE4IwNvsHQW4Qg/aIU0YZ2fBUcQJuI=", "problem_code"=>"palin", "problem_source"=>"(none)", "problem_path"=>""}
+Redirected to http://localhost:3000/problems
+Completed in 17ms (DB: 0) | 302 Found [http://localhost/problems/submited]
+
+
+Processing ProblemController#index (for 127.0.0.1 at 2010-02-26 22:22:00) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 110ms (View: 93, DB: 0) | 200 OK [http://localhost/problems]
+
+
+Processing ProblemController#submit (for 127.0.0.1 at 2010-02-26 22:22:14) [GET]
+  Parameters: {"problem_path"=>"coci/2001/regional/seniors/palin"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 37ms (View: 21, DB: 0) | 200 OK [http://localhost/problems/submit?problem_path=coci%2F2001%2Fregional%2Fseniors%2Fpalin]
+
+
+Processing ProblemController#submited (for 127.0.0.1 at 2010-02-26 22:22:20) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"int main () { return 0; }", "nick"=>"teste", "authenticity_token"=>"2TeIpaLHJdfSYdE4IwNvsHQW4Qg/aIU0YZ2fBUcQJuI=", "problem_code"=>"palin", "problem_source"=>"(none)", "problem_path"=>"coci/2001/regional/seniors/palin"}
+Redirected to http://localhost:3000/status/20100226222220.teste?problem_path=coci/2001/regional/seniors/palin
+Completed in 2019ms (DB: 0) | 302 Found [http://localhost/problems/submited]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2010-02-26 22:22:23) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20100226222220", "problem_path"=>"coci/2001/regional/seniors/palin"}
+Completed in 18ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20100226222220.teste?problem_path=coci/2001/regional/seniors/palin]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2010-02-26 22:22:25) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20100226222220", "problem_path"=>"coci/2001/regional/seniors/palin"}
+Completed in 18ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20100226222220.teste?problem_path=coci/2001/regional/seniors/palin]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2010-02-26 22:22:27) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20100226222220", "problem_path"=>"coci/2001/regional/seniors/palin"}
+Completed in 17ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20100226222220.teste?problem_path=coci/2001/regional/seniors/palin]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2010-02-26 22:22:29) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20100226222220", "problem_path"=>"coci/2001/regional/seniors/palin"}
+Completed in 17ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20100226222220.teste?problem_path=coci/2001/regional/seniors/palin]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2010-02-26 22:22:48) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20100226222220", "problem_path"=>"coci/2001/regional/seniors/palin"}
+Completed in 18ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20100226222220.teste?problem_path=coci/2001/regional/seniors/palin]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2010-02-26 22:22:49) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20100226222220", "problem_path"=>"coci/2001/regional/seniors/palin"}
+Completed in 17ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20100226222220.teste?problem_path=coci/2001/regional/seniors/palin]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2010-02-26 22:22:49) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20100226222220", "problem_path"=>"coci/2001/regional/seniors/palin"}
+Completed in 19ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20100226222220.teste?problem_path=coci/2001/regional/seniors/palin]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2010-02-26 22:22:50) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20100226222220", "problem_path"=>"coci/2001/regional/seniors/palin"}
+Completed in 17ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20100226222220.teste?problem_path=coci/2001/regional/seniors/palin]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2010-02-26 22:22:50) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20100226222220", "problem_path"=>"coci/2001/regional/seniors/palin"}
+Completed in 142ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20100226222220.teste?problem_path=coci/2001/regional/seniors/palin]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2010-02-26 22:23:46) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20100226222220", "problem_path"=>"coci/2001/regional/seniors/palin"}
+Completed in 18ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20100226222220.teste?problem_path=coci/2001/regional/seniors/palin]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2010-02-26 22:24:04) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20100226222220", "problem_path"=>"coci/2001/regional/seniors/palin"}
+Completed in 18ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20100226222220.teste?problem_path=coci/2001/regional/seniors/palin]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2010-02-26 22:25:52) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20100226222220", "problem_path"=>"coci/2001/regional/seniors/palin"}
+Completed in 19ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20100226222220.teste?problem_path=coci/2001/regional/seniors/palin]
+
+
+Processing ProblemController#exitstatus (for 127.0.0.1 at 2010-02-26 22:28:06) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20100226222220", "problem_path"=>"coci/2001/regional/seniors/palin"}
+Completed in 18ms (View: 1, DB: 0) | 200 OK [http://localhost/exitstatus/20100226222220.teste?problem_path=coci/2001/regional/seniors/palin]
+
+
+Processing ProblemController#submited (for 127.0.0.1 at 2010-02-26 22:29:12) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"#include <cstdio>\r\n#include <cstdlib>\r\n#include <algorithm>\r\n#include <cstring>\r\n#define MAX 105\r\n\r\nusing namespace std;\r\n\r\nint main(){\r\n  char s[MAX];\r\n  int pal[MAX][MAX];\r\n  int mel[MAX];\r\n  scanf (\"%s\", s);\r\n  int len = strlen(s);\r\n  for (int i = 0; i <= len; i++){\r\n    for (int j = 0; j <= len; j++)\r\n      pal[i][j] = 0;\r\n    pal[i][i] = 1;\r\n    mel[i] = i;\r\n  }\r\n  for (int i = 1; i <= len; i++){\r\n    for (int j = 1; i + j - 1 < len && i - j - 1 >= 0; j++){\r\n      if (s[i+j-1] != s[i-j-1])\r\n\tbreak;\r\n      pal[i+j][i-j] = 1;\r\n    }\r\n    if (s[i+1-1] == s[i-1])\r\n      for (int j = 0; i - j - 1 >= 0 && i + j < len; j++){\r\n\tif (s[i+j] != s[i-j-1])\r\n\t  break;\r\n\tpal[i+j+1][i-j] = 1;\r\n      }\r\n  }\r\n  /*for (int i = 0; i <= len; i++){\r\n    for (int j = 0; j <= len; j++)\r\n      printf (\"%d \", pal[i][j]);\r\n    printf (\"\\n\");\r\n    }*/\r\n  for (int i = 1; i <= len; i++)\r\n    for (int j = i - 1; j > 0; j--){\r\n      if (pal[i][j] == 1)\r\n\tmel[i] = min (mel[i], mel[j-1] + 1);\r\n      mel[i] = min (mel[i], mel[i-1] + 1);\r\n    }\r\n  printf (\"%d\\n\", mel[len]);\r\n  return 0;\r\n}\r\n", "nick"=>"teste", "authenticity_token"=>"2TeIpaLHJdfSYdE4IwNvsHQW4Qg/aIU0YZ2fBUcQJuI=", "problem_code"=>"palin", "problem_source"=>"(none)", "problem_path"=>"coci/2001/regional/seniors/palin"}
+Redirected to http://localhost:3000/status/20100226222912.teste?problem_path=coci/2001/regional/seniors/palin
+Completed in 2018ms (DB: 0) | 302 Found [http://localhost/problems/submited]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2010-02-26 22:29:14) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20100226222912", "problem_path"=>"coci/2001/regional/seniors/palin"}
+Completed in 17ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20100226222912.teste?problem_path=coci/2001/regional/seniors/palin]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2010-02-26 22:29:15) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20100226222912", "problem_path"=>"coci/2001/regional/seniors/palin"}
+Completed in 18ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20100226222912.teste?problem_path=coci/2001/regional/seniors/palin]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2010-02-26 22:29:16) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20100226222912", "problem_path"=>"coci/2001/regional/seniors/palin"}
+Completed in 148ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20100226222912.teste?problem_path=coci/2001/regional/seniors/palin]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2010-02-26 22:29:17) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20100226222912", "problem_path"=>"coci/2001/regional/seniors/palin"}
+Completed in 18ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20100226222912.teste?problem_path=coci/2001/regional/seniors/palin]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2010-02-26 22:29:18) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20100226222912", "problem_path"=>"coci/2001/regional/seniors/palin"}
+Completed in 18ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20100226222912.teste?problem_path=coci/2001/regional/seniors/palin]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2010-02-26 22:29:18) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20100226222912", "problem_path"=>"coci/2001/regional/seniors/palin"}
+Completed in 19ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20100226222912.teste?problem_path=coci/2001/regional/seniors/palin]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2010-02-26 22:29:24) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20100226222912", "problem_path"=>"coci/2001/regional/seniors/palin"}
+Completed in 20ms (View: 2, DB: 0) | 200 OK [http://localhost/status/20100226222912.teste?problem_path=coci/2001/regional/seniors/palin]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2010-02-26 22:29:25) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20100226222912", "problem_path"=>"coci/2001/regional/seniors/palin"}
+Completed in 17ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20100226222912.teste?problem_path=coci/2001/regional/seniors/palin]
+
+
+Processing ProblemController#submited (for 127.0.0.1 at 2010-02-26 22:29:45) [POST]
+  Parameters: {"commit"=>"Send", "code"=>"#include <cstdio>\r\n#include <cstdlib>\r\n#include <algorithm>\r\n#include <cstring>\r\n#define MAX 105\r\n\r\nusing namespace std;\r\n\r\nint main(){\r\n  char s[MAX];\r\n  int pal[MAX][MAX];\r\n  int mel[MAX];\r\n  scanf (\"%s\", s);\r\n  int len = strlen(s);\r\n  for (int i = 0; i <= len; i++){\r\n    for (int j = 0; j <= len; j++)\r\n      pal[i][j] = 0;\r\n    pal[i][i] = 1;\r\n    mel[i] = i;\r\n  }\r\n  for (int i = 1; i <= len; i++){\r\n    for (int j = 1; i + j - 1 < len && i - j - 1 >= 0; j++){\r\n      if (s[i+j-1] != s[i-j-1])\r\n\tbreak;\r\n      pal[i+j][i-j] = 1;\r\n    }\r\n    if (s[i+1-1] == s[i-1])\r\n      for (int j = 0; i - j - 1 >= 0 && i + j < len; j++){\r\n\tif (s[i+j] != s[i-j-1])\r\n\t  break;\r\n\tpal[i+j+1][i-j] = 1;\r\n      }\r\n  }\r\n  /*for (int i = 0; i <= len; i++){\r\n    for (int j = 0; j <= len; j++)\r\n      printf (\"%d \", pal[i][j]);\r\n    printf (\"\\n\");\r\n    }*/\r\n  for (int i = 1; i <= len; i++)\r\n    for (int j = i - 1; j > 0; j--){\r\n      if (pal[i][j] == 1)\r\n\tmel[i] = min (mel[i], mel[j-1] + 1);\r\n      mel[i] = min (mel[i], mel[i-1] + 1);\r\n    }\r\n  printf (\"%d\\n\", mel[len]);\r\n  return 0;\r\n}\r\n", "nick"=>"teste", "authenticity_token"=>"2TeIpaLHJdfSYdE4IwNvsHQW4Qg/aIU0YZ2fBUcQJuI=", "problem_code"=>"palin", "problem_source"=>"(none)", "problem_path"=>"coci/2001/regional/seniors/palin"}
+Redirected to http://localhost:3000/status/20100226222945.teste?problem_path=coci/2001/regional/seniors/palin
+Completed in 2018ms (DB: 0) | 302 Found [http://localhost/problems/submited]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2010-02-26 22:29:47) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20100226222945", "problem_path"=>"coci/2001/regional/seniors/palin"}
+Completed in 18ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20100226222945.teste?problem_path=coci/2001/regional/seniors/palin]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2010-02-26 22:29:48) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20100226222945", "problem_path"=>"coci/2001/regional/seniors/palin"}
+Completed in 17ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20100226222945.teste?problem_path=coci/2001/regional/seniors/palin]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2010-02-26 22:29:49) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20100226222945", "problem_path"=>"coci/2001/regional/seniors/palin"}
+Completed in 18ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20100226222945.teste?problem_path=coci/2001/regional/seniors/palin]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2010-02-26 22:29:49) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20100226222945", "problem_path"=>"coci/2001/regional/seniors/palin"}
+Completed in 18ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20100226222945.teste?problem_path=coci/2001/regional/seniors/palin]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2010-02-26 22:29:50) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20100226222945", "problem_path"=>"coci/2001/regional/seniors/palin"}
+Completed in 17ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20100226222945.teste?problem_path=coci/2001/regional/seniors/palin]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2010-02-26 22:29:50) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20100226222945", "problem_path"=>"coci/2001/regional/seniors/palin"}
+Completed in 21ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20100226222945.teste?problem_path=coci/2001/regional/seniors/palin]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2010-02-26 22:29:51) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20100226222945", "problem_path"=>"coci/2001/regional/seniors/palin"}
+Completed in 17ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20100226222945.teste?problem_path=coci/2001/regional/seniors/palin]
+
+
+Processing ProblemController#exitstatus (for 127.0.0.1 at 2010-02-26 22:29:57) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20100226222945", "problem_path"=>"coci/2001/regional/seniors/palin"}
+Completed in 17ms (View: 1, DB: 0) | 200 OK [http://localhost/exitstatus/20100226222945.teste?problem_path=coci/2001/regional/seniors/palin]
+
+
+Processing ProblemController#status (for 127.0.0.1 at 2010-02-26 22:31:30) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20100226222945", "problem_path"=>"coci/2001/regional/seniors/palin"}
+Completed in 17ms (View: 1, DB: 0) | 200 OK [http://localhost/status/20100226222945.teste?problem_path=coci/2001/regional/seniors/palin]
+
+
+Processing ProblemController#exitstatus (for 127.0.0.1 at 2010-02-26 22:32:05) [GET]
+  Parameters: {"nick"=>"teste", "date"=>"20100226222945", "problem_path"=>"coci/2001/regional/seniors/palin"}
+Completed in 19ms (View: 1, DB: 0) | 200 OK [http://localhost/exitstatus/20100226222945.teste?problem_path=coci/2001/regional/seniors/palin]
+
+
+Processing ProblemController#index (for 127.0.0.1 at 2010-02-26 22:32:19) [GET]
+Rendering template within layouts/application
+Rendering problem/index
+Completed in 224ms (View: 88, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProblemController#submit (for 127.0.0.1 at 2010-02-26 22:32:33) [GET]
+  Parameters: {"problem_path"=>"obi/2008/fase2-nive1/cavalos"}
+Rendering template within layouts/application
+Rendering problem/submit
+Completed in 22ms (View: 5, DB: 0) | 200 OK [http://localhost/problems/submit?problem_path=obi%2F2008%2Ffase2-nive1%2Fcavalos]
