@@ -37,7 +37,13 @@ module IOI
           if $special_judge
             status = exec_command("#{$special_judge} 3< #{test[:in]} 4< stdout 5< #{test[:out]}").exitstatus
           elsif
-            status = exec_command("diff -B -b stdout #{test[:out]}").exitstatus
+            #status = exec_command("diff -B -b stdout
+            ##{test[:out]}").exitstatus
+            status = if File.read('stdout').gsub(/\s+/, '') != File.read(test[:out]).gsub(/\s+/, '')
+                       Submission::ANS_WRONG
+                     else 
+                       Submission::ANS_ACCEPTED
+                     end
           end
           unless status == Submission::ANS_ACCEPTED
             status = Submission::ANS_WRONG
