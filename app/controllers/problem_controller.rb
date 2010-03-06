@@ -60,6 +60,7 @@ class ProblemController < ApplicationController
     elsif
       if File.file?(folder + '/WAIT')
         output += 'waiting'
+        enqueue_submission(@problem_path, params[:date], params[:nick])
       else
         output += File.read(folder + '/status')
       end
@@ -75,11 +76,20 @@ class ProblemController < ApplicationController
     elsif
       if File.file?(folder + '/WAIT')
         output += '-1'
+        enqueue_submission(@problem_path, params[:date], params[:nick])
       else
         output += File.read(folder + '/exitstatus')
       end
     end
     render :text => output
+  end
+
+  def enqueue_submission(problem_path, date, nick)
+    name = date + '.' + nick
+    folder = 'db/problems/' + problem_path + '/subs/' + name
+    if File.file?(folder + '/WAIT') && !File.file?('db/wait_subs/' + name)
+      FileUtils.ln_s('../../' + folder, 'db/wait_subs/' + name)
+    end
   end
 
 
