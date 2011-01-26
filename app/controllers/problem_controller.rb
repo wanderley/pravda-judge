@@ -31,7 +31,7 @@ class ProblemController < ApplicationController
       return
     end
 
-    name     = Time.new.strftime('%Y%m%d%H%M%S') + '.' + @nick
+    name     = Time.new.strftime('%Y%m%d%H%M%S%L') + '.' + @nick
     folder   = 'db/problems/' + @problem[:path] + '/subs/' + name + '/'
     filename = case @language
                when 'C'   : 'sol.c'
