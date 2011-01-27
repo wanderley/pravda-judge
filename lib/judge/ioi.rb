@@ -5,7 +5,7 @@ require File.dirname(__FILE__) + '/init'
 module IOI
   def self.judge(problem_path, file_path)
     Dir.chdir(problem_path) do
-      require 'config.rb'
+      require './config.rb'
 
       Log.header($name, $time_limit, $memory_limit, $points_per_test, $number_of_tests, $source)
       submission = Submission.new(file_path)
@@ -22,6 +22,21 @@ module IOI
       better_time    = 999999
       worst_time     = -1
       wrong_cases    = 0
+      
+      if $tests.nil?
+        $number_of_tests = 0
+        $tests           = []
+        test_in  = Dir.glob(File.join('tests/**', '*.i*')).sort
+        test_out = Dir.glob(File.join('tests/**', '*.o*')).sort
+        if test_out.size == 0
+          test_out = Dir.glob(File.join('tests/**', '*.a*')).sort
+        end
+        0.upto test_in.size-1 do |i|
+          $tests << [ {:in => test_in[i], :out => test_out[i]} ]
+        end
+        $number_of_tests = $tests.size
+        $points_per_test = 100.0 / $number_of_tests
+      end
 
       $tests.each do |test|
         total_cases = total_cases + 1

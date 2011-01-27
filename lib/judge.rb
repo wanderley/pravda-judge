@@ -14,7 +14,7 @@ while true
       ['sol.c', 'Main.java'].each do |i|
         filename = i if File.exist?("#{path}/#{i}")
       end
-      `#{IOI_JUDGE} #{path}/#{filename} > #{path}/status 2> /dev/null; echo $? > #{path}/exitstatus`
+      `ruby #{IOI_JUDGE} #{path}/#{filename} > #{path}/status 2> /dev/null; echo $? > #{path}/exitstatus`
     end
     FileUtils.cd(sub) do
       FileUtils.rm('WAIT')

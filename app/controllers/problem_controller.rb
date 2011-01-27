@@ -47,8 +47,8 @@ class ProblemController < ApplicationController
     File.open(folder + 'WAIT', 'w') do
     end
     FileUtils.ln_s('../../' + folder, 'db/wait_subs/' + name)
-
-    redirect_to "/status/#{name}?problem_path=#{@problem_path}"
+  
+    render :text => %Q{<html><body onload='window.location="/status/#{name}?problem_path=#{@problem_path}";'>\n#{name}?problem_path=#{@problem_path}\n</body></html>}
   end
 
 

@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 module Log
   def self.read_file(file)
     return '' if file == nil or not File.exist? file
